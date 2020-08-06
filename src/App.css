@@ -1,6 +1,4 @@
-.App {
-  text-align: center;
-}
+
 
 .App-logo {
   height: 40vmin;
@@ -29,13 +27,13 @@
 }
 
 body {
-  font-family: 'Rubik', sans-serif;
+  font-family: 'Avenir', sans-serif;
   color: #4F4F4F;
   font-weight: 300;
 }
 
 main {
-  margin: 0% 25% 0% 25%;
+  margin: 0% 20% 0% 20%;
   margin-top: 10%;
 }
 
@@ -99,10 +97,19 @@ nav li {
   margin:10px;
 }
 
+.project {
+  margin-right: 5%;
+}
+
 .blurb {
   font-size: 50%;
   color: #83AA75;
   margin-left: 13%;
+}
+
+.intro {
+  text-align: left;
+  margin-left: 10%;
 }
 
 .short {
@@ -131,17 +138,16 @@ img {
   margin-bottom: 50px;
 }
 
-.cover {
-  width: 300px;
+.project-image {
+  width: 350px;
 }
 
-.profile {
-  margin-left: 30%;
+.cover {
+  width: 350px;
 }
 
 .name {
   font-size: 200%;
-  flex-grow: 2;
   flex-shrink: 0;
   margin-left: 5px;
   font-weight: 400;

@@ -1,7 +1,9 @@
 import React from 'react';
 import './App.css';
+import App from "./App";
+import Card from "./Card";
 
-function App() {
+function Projects(props) {
   return (
     <html lang="en">
     <head>
@@ -10,27 +12,44 @@ function App() {
       <link rel="stylesheet"
             href="styles/theme.css"
             media="all"/>
-      <style>
-          @import url('https://fonts.googleapis.com/css?family=Avenir&display=swap');
-      </style>
       <title>Renee Hoh</title>
     </head>
     <body>
       <header>
-        <nav>
           <div class="row short">
           <img class ="logo" src="images/lef.svg" alt="Logo" />
           <p class="name">Renee Hoh</p>
-            <ul class="row nav">
-              <li><a href="App.js">Projects</a></li>
-              <li><a href="Writing.js">Writing</a></li>
-              <li><a href="#/About">About</a></li>
-              <li><a href="documents/resume-renee.pdf">Resume</a></li>
-            </ul>
         </div>
-        </nav>
       </header>
       <main>
+        <div class="row">
+        <Card
+            link="/spotify"
+            image="images/spotify-cover.png"
+            title="Spotify Concept: Collaborative queues"
+            category="Product design"
+        />
+        <Card
+            link="/google"
+            image="images/google-cover.png"
+            title="Google Technical Writing Internships"
+            category="Technical writing, UX research"
+        />
+        </div>
+        <div class="row">
+        <Card
+            link="/cornell-creatives"
+            image="images/cc-cover.png"
+            title="Cornell Creatives"
+            category="Product design"
+        />
+        <Card
+            link="/pollo"
+            image="images/spotify-cover.png"
+            title="Pollo"
+            category="Product design, graphic design"
+        />
+        </div>
         <section class="row">
           <section class="col design">
             <a href="https://medium.com/@renee.hoh/spotify-concept-creating-memories-with-collaborations-558b2a3f4ca3">
@@ -70,4 +89,4 @@ function App() {
   );
 }
 
-export default App;
+export default Projects;

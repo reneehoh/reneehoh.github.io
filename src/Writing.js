@@ -12,10 +12,6 @@ function App() {
             media="all"/>
       <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
       <script src="scripts/accordion.js" type="text/javascript"></script>
-      <style>
-          @import url('https://fonts.googleapis.com/css?family=Rubik&display=swap');
-      </style>
-    
       <title>Renee Hoh</title>
     </head>
     <body>
@@ -169,7 +165,6 @@ function App() {
       </footer>
     </body>
     </html>
-    
   );
 }
 

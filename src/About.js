@@ -27,12 +27,11 @@ function App() {
         </div>
         </nav>
       </header>
-
       <main>
         <section>
         <div class="row">
           <img src="images/profile.png" alt="Profile picture" class="profile" />
-          <div>
+          <div class="intro">
             <h1> Hey there! I'm Renee.</h1>
             <p>I study Information Science with a concentration in User Experience at Cornell University.
               I enjoy starting conversations and connecting with people –– whether it's through writing or design. I'm a big believer in accessibility of information and helping my community make informed choices. </p>
