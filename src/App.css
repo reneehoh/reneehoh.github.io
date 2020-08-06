@@ -68,6 +68,7 @@ a:hover {
 }
 
 .navigation-right {
+  width:50px;
   font-size: 90%;
   font-weight: 90%;
   color: #4F4F4F;
@@ -78,7 +79,7 @@ a:hover {
 
 .header-name {
   font-weight: bolder;
-  margin-top: 5%;
+  margin-top: 8%;
 }
 
 .header-logo {
@@ -86,7 +87,7 @@ a:hover {
 }
 
 .container {
-  margin:auto;
+  margin: auto;
 }
 
 .name-container {
@@ -99,6 +100,7 @@ a:hover {
 }
 
 .navigation-left {
+  width:50px;
   font-size: 90%;
   font-weight: 90%;
   color: #4F4F4F;

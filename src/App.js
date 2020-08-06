@@ -14,13 +14,22 @@ function App() {
       <Route path="/writing" component={Writing} />
       <Route path="/about" component={About} />
       <Route path="/documents/resume-renee.pdf"/>
-
-      <div className="navigation">
-        <div className="navigation-sub">                          
+      <div class="row">
+          <div className="navigation-left">                             
           <Link to="/" className="item">Projects</Link>
           <Link to="/Writing" className="item">Writing</Link>
+      </div>
+        <div class="container">
+            <div class="logo-container">
+                <img class ="header-logo" src="images/squiggles.svg" alt="Logo" />
+            </div>
+            <div class="name-container">
+                <p class="header-name">Renee Hoh</p>
+            </div>
+        </div>
+        <div className="navigation-right">
           <Link to="/About" className="item">About</Link>
-          <Link to="/resume-renee.pdf" className="item">Resume</Link>
+          <Link to="/Resume" className="item">Resume</Link>
         </div>
       </div>
     </div>

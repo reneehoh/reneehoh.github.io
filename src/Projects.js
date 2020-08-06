@@ -26,18 +26,15 @@ function Projects(props) {
                 <div class="logo-container">
                     <img class ="header-logo" src="images/squiggles.svg" alt="Logo" />
                 </div>
-                 <div class="name-container">
+                <div class="name-container">
                     <p class="header-name">Renee Hoh</p>
                 </div>
-                
             </div>
             <div className="navigation-right">
                 <Link to="/About" className="item">About</Link>
                 <Link to="/resume-renee.pdf" className="item">Resume</Link>
             </div>
         </div>
-            
-
       </header>
       <main class="project-main">
         <div class="row">
@@ -84,7 +81,6 @@ function Projects(props) {
       </footer>
     </body>
     </html>
-    
   );
 }
 
