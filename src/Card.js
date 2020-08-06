@@ -12,6 +12,7 @@ function Card(props) {
         <div className="project-title">{props.title}</div>
         </Link>
         <div className="project-category">{props.category}</div>
+        <div className="project-blurb">{props.blurb}</div>
     </div>
   )
 }

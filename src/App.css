@@ -1,5 +1,3 @@
-
-
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -11,30 +9,33 @@
   }
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
 body {
   font-family: 'Avenir', sans-serif;
   color: #4F4F4F;
-  font-weight: 300;
+  font-weight: 400;
+}
+
+.header-name {
+  font-weight: bolder;
+  margin: auto;
+}
+
+.top {
+  position: absolute;
+  top: 20px;
+  left: 20%;
+}
+
+header {
+  margin-bottom: 10%;
 }
 
 main {
   margin: 0% 20% 0% 20%;
-  margin-top: 10%;
+}
+
+.project-main {
+  margin: 0% 10% 0% 10%;
 }
 
 h1 {
@@ -66,12 +67,47 @@ a:hover {
   flex-direction: row;
 }
 
-/*
-nav {
-  margin-left: 70%;
+.navigation-right {
+  font-size: 90%;
+  font-weight: 90%;
+  color: #4F4F4F;
+  text-align: right;
+  margin-right: 10%;
+  margin-top: 5%;
 }
-*/
 
+.header-name {
+  font-weight: bolder;
+  margin-top: 5%;
+}
+
+.header-logo {
+  margin-top: 7%;
+}
+
+.container {
+  margin:auto;
+}
+
+.name-container {
+  position: absolute;
+}
+
+
+.logo-container {
+  position: absolute;
+}
+
+.navigation-left {
+  font-size: 90%;
+  font-weight: 90%;
+  color: #4F4F4F;
+  text-align: left;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+
+/**
 nav ul{
   padding-bottom: 20px;
   display:flex;
@@ -80,7 +116,7 @@ nav ul{
   font-size: 80%;
   font-weight: 50%;
   color: #4F4F4F;
-}
+}*/
 
 .index {
   display: flex;
@@ -88,9 +124,14 @@ nav ul{
   flex-grow: 1;
 }
 
-nav li {
+.item {
   margin: 10px;
 }
+
+/**
+nav li {
+  margin: 10px;
+}*/
 
 .icons {
   text-align: center;
@@ -99,6 +140,22 @@ nav li {
 
 .project {
   margin-right: 5%;
+  margin-bottom: 5%;
+}
+
+.project-title {
+  font-weight: bold;
+}
+.project-category {
+  color: gray;
+  font-size: 80%;
+  margin-bottom: 5%;
+}
+
+.project-blurb {
+  color: gray;
+  font-size: 90%;
+  font-weight: 300;
 }
 
 .blurb {
@@ -139,7 +196,7 @@ img {
 }
 
 .project-image {
-  width: 350px;
+  width: 500px;
 }
 
 .cover {
@@ -147,16 +204,16 @@ img {
 }
 
 .name {
-  font-size: 200%;
-  flex-shrink: 0;
-  margin-left: 5px;
+  font-size: 150%;
   font-weight: 400;
+  margin: 0% 30% 0% 30%;
 }
 
+/**
 .nav {
   justify-content: flex-end;
   flex-grow: 1;
-}
+}*/
 
 ul {
   margin-right: 50px;
@@ -164,9 +221,10 @@ ul {
 }
 
 .logo {
-  margin-left:10%;
+  margin-left:15%;
   padding:0px;
-  margin-top: 35px;
+  margin-top: 5%;
+  width: 10%;
 }
 
 .br {

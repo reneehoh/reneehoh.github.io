@@ -1,7 +1,8 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import './App.css';
 
-function App() {
+function Writing() {
   return (
     <html lang="en">
     <head>
@@ -15,21 +16,20 @@ function App() {
       <title>Renee Hoh</title>
     </head>
     <body>
-      <header>
-      <nav>
-          <div class="row short">
-          <img class ="logo" src="images/lef.svg" alt="Logo" />
+    <header>
+        <div class="row short">
+          <img class ="logo" src="images/squiggles.svg" alt="Logo" />
           <p class="name">Renee Hoh</p>
-            <ul class="row nav">
-              <li><a href="App.js">Projects</a></li>
-              <li><a href="Writing.js">Writing</a></li>
-              <li><a href="About.js">About</a></li>
-              <li><a href="documents/resume-renee.pdf">Resume</a></li>
-            </ul>
+            <div className="navigation">
+                <div className="navigation-sub">                          
+                    <Link to="/" className="item">Projects</Link>
+                    <Link to="/Writing" className="item">Writing</Link>
+                    <Link to="/About" className="item">About</Link>
+                    <Link to="/resume-renee.pdf" className="item">Resume</Link>
+                </div>
+            </div>
         </div>
-        </nav>
       </header>
-    
       <main>
         <h1>Firebase Documentation</h1>
           <h2> Technical Writing Intern at Google San Francisco in Summer 2019. Documents up to date as of Jan. 2020.</h2>
@@ -168,4 +168,4 @@ function App() {
   );
 }
 
-export default App;
+export default Writing;
