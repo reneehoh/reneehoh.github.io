@@ -33,21 +33,46 @@ main {
   margin: 0% 10% 0% 10%;
 }
 
+.about-main {
+  margin: 0% 15% 5% 15%;
+}
+
+.writing-main {
+  margin-left: 15%;
+  margin-right: 15%;
+}
+
 h1 {
   margin-top: 20px;
   size: 200%;
 }
 
 h2 {
-  font-size: 70%;
-  color: rgb(134, 134, 134);
+  font-weight: bold;
+}
+
+.writing-header-2 {
   font-weight: 200;
+  font-size:  70%;
+  color: gray;
 }
 
-.write, h3 {
-  margin-left: 15px;
+.writing-header-3 {
+  font-weight: 800;
+  color: gray;
+  font-size: 80%;
 }
 
+.publication {
+  width:300px;
+}
+
+.write {
+  width: 600px;
+  margin-left: 5%;
+  margin-top: 10px;
+  font-weight:500;
+}
 a {
   text-decoration: none;
   color: #83AA75;
@@ -79,7 +104,7 @@ a:hover {
 }
 
 .header-logo {
-  margin-top: 7%;
+  margin-top: 5%;
 }
 
 .container {
@@ -88,11 +113,14 @@ a:hover {
 
 .name-container {
   position: absolute;
+  margin-left: 14px;
+  margin-top: 7px;
 }
 
 
 .logo-container {
   position: absolute;
+  justify-content: center;
 }
 
 .navigation-left {
@@ -106,8 +134,6 @@ a:hover {
 }
 
 
-
-
 .index {
   display: flex;
   flex-direction: row;
@@ -118,10 +144,11 @@ a:hover {
   margin: 10px;
 }
 
-/**
-nav li {
-  margin: 10px;
-}*/
+.profile {
+  width: 400px;
+  margin:0px;
+  margin-top:5%;
+}
 
 .icons {
   text-align: center;
@@ -156,7 +183,6 @@ nav li {
 
 .intro {
   text-align: left;
-  margin-left: 10%;
 }
 
 .short {
@@ -210,13 +236,6 @@ ul {
   margin-top: 30px;
 }
 
-.logo {
-  margin-left:15%;
-  padding:0px;
-  margin-top: 5%;
-  width: 10%;
-}
-
 .br {
   margin-top: 10px;
   margin-bottom: 10px;
@@ -242,8 +261,8 @@ ul {
 
 .made-by {
   text-align: center;
-  font-weight: 200;
-  font-size: 80%;
+  font-weight: 300;
+  font-size: 70%;
   color: rgb(119, 120, 120);
 }
 
@@ -278,6 +297,12 @@ ul {
 
 .details {
   margin: auto;
+  font-size: 80%;
+}
+
+.detail {
+  margin-right: 5%;
+  width: 200px;
 }
 
 @keyframes App-logo-spin {

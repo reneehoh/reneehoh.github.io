@@ -14,7 +14,7 @@ function About() {
       <title>Renee Hoh</title>
     </head>
     <body>
-      <main>
+      <main class="about-main">
         <section>
         <div class="row">
           <img src="images/profile.png" alt="Profile picture" class="profile" />

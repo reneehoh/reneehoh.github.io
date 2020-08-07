@@ -16,9 +16,13 @@ function Writing() {
       <title>Renee Hoh</title>
     </head>
     <body>
-      <main>
-        <h1>Firebase Documentation</h1>
-          <h2> Technical Writing Intern at Google San Francisco in Summer 2019. Documents up to date as of Jan. 2020.</h2>
+      <main class="writing-main">
+        <div class="row">
+          <section class="publication">
+          <h1>Firebase Documentation</h1>
+            <h2 class="writing-header-2"> Technical Writing Intern at Google
+             San Francisco in Summer 2019. Documents up to date as of Jan. 2020.</h2>
+          </section>
           <section class="write">
             <p><a href="https://firebase.google.com/docs/hosting/custom-domain">
               Connect a custom domain</a></p>
@@ -27,9 +31,14 @@ function Writing() {
             <p><a href="https://firebase.google.com/docs/in-app-messaging/compose-campaign">
               Compose a campaign</a></p>
           </section>
+          </div>
     
+      <div class="row">
+      <section class="publication">
         <h1><em>The Cornell Daily Sun</em></h1>
-          <h2> Writing news and feature-esque articles for the print and online news section. </h2>
+        <h2 class="writing-header-2"> Writing news and feature-esque articles for the print
+         and online news section. </h2>
+         </section>
             <section class="write">
               <p><a href="https://cornellsun.com/2019/10/16/from-student-to-teacher-alumni-professors-reflect-on-their-time-at-cornell/">
                  From Student to Teacher: Alumni Professors Reflect on Their Time at Cornell</a> </p>
@@ -38,19 +47,20 @@ function Writing() {
               <p><a href="https://cornellsun.com/2019/11/12/confused-about-your-degree-requirements-a-new-app-is-here-to-help-you/">
                 Confused About Your Degree Requirements? A New App Is Here to Help You.</a></p>
             </section>
-    
+            </div>
+     <div class="row">
+          <section class="publication">
         <h1><em>The California Aggie</em></h1>
-          <h2> City News Reporter; writing about all things Davis. </h2>
-            <h3> My picks:</h3>
+          <h2 class="writing-header-2"> City News Reporter; writing about all things Davis. </h2>
+          </section>
               <section class="write">
+              <h3 class="writing-header-3"> My picks:</h3>
                 <p><a href="https://theaggie.org/2019/01/31/uc-davis-prepares-for-uc-wide-payroll-system-despite-issues-at-other-uc-campuses/">
                   UC Davis prepares for UC-wide payroll system despite issues at other UC campuses</a></p>
                 <p><a href="https://theaggie.org/2019/06/03/the-davis-needle-downtowns-monumental-mark/">
                   The Davis Needle: downtown’s monumental mark</a></p>
                 <p><a href="https://theaggie.org/2019/01/25/increase-in-electric-vehicle-charger-installations-in-davis/">
                   Increase in electric vehicle charger installations in Davis</a></p>
-              </section>
-                <section class="write drop-panel">
                 <p class="br">-</p>
                   <p><a href="https://theaggie.org/2018/11/09/local-band-uses-concert-to-raise-awareness-for-kids-in-need-of-defense/">
                     Local band uses concert to raise awareness for Kids in Need of Defense</a></p>
@@ -91,19 +101,20 @@ function Writing() {
                   <p><a href="https://theaggie.org/2019/06/10/ethnic-studies-push-for-a-seat-at-the-table/">
                     Ethnic studies push for a seat at the table</a></p>
                 </section>
-    
+            </div>
+      <div class="row">
+      <section class="publication">
         <h1><em>The Campanile</em></h1>
-          <h2> News + Opinion Editor, 2017-2018</h2>
-            <h3> My picks:</h3>
+          <h2 class="writing-header-2"> News + Opinion Editor, 2017-2018</h2>
+          </section>
               <section class="write">
+              <h3 class="writing-header-3"> My picks:</h3>
                 <p><a href="https://thecampanile.org/2018/05/21/a-broken-promise-kim-diorio-reveals-the-story-behind-her-resignation/">
                   'A broken promise': Kim Diorio reveals the story behind her resignation</a></p>
                 <p><a href="https://thecampanile.org/2017/04/26/sex-ed-curriculum-sparks-controversy/">
                   Sex Ed Curriculum Sparks Controversy</a></p>
                 <p><a href="https://thecampanile.org/2017/10/23/cryptocurrency-the-currency-of-the-future/">
                   Cryptocurrency: The currency of the future</a></p>
-              </section>
-              <section class="write">
               <p class="br">-</p>
               <p><a href="https://thecampanile.org/2018/04/20/adam-paulson-to-become-acting-principal/">
                 Adam Paulson to become acting principal</a></p>
@@ -128,8 +139,12 @@ function Writing() {
               <p><a href="https://thecampanile.org/2017/05/11/palo-alto-high-school-student-accused-of-sexual-assault/">
                 Law protects education rights of sexual assault perpetrator</a></p>
              </section>
+             </div>
+       <div class="row">
+      <section class="publication">
          <h1><em>The Stanford Daily</em></h1>
-            <h2> Journalism Intern in Summer 2017.</h2>
+            <h2 class="writing-header-2"> Journalism Intern in Summer 2017.</h2>
+            </section>
               <section class="write">
                 <p><a href="https://www.stanforddaily.com/2017/08/13/potential-move-to-year-round-daylight-saving-time-student-response/">
                   Potential move to year-round daylight saving time: student response</a></p>
@@ -140,6 +155,7 @@ function Writing() {
                 <p><a href="https://www.stanforddaily.com/2017/07/07/de-gb-stanford-designed-adhesive-destined-to-clean-space-debris/">
                   Stanford-designed adhesive designed to clean space debris</a></p>
               </section>
+              </div>
       </main>
     
       <footer>

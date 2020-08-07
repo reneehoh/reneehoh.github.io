@@ -56,14 +56,15 @@ function Projects(props) {
             image="images/unipantry-cover.png"
             title="UniPantry"
             category="Product design, UX research"
-            blurb="A startup dedicated to helping college students meal prep and budget their money."
+            blurb="A startup dedicated to helping college students meal prep and budget their money. My work for this project
+            is protected under NDA. Please email me for more details"
         />
         <Card
             link="/Arcade"
             image="images/arcade-cover.png"
-            title="Arcade: Adobe Creative Jam"
+            title="Arcade: Summer 2020 Adobe Creative Jam"
             category="Product design"
-            blurb="App concept to recommend games to senior citizens."
+            blurb="An app concept to recommend games to senior citizens. Case study coming soon!"
         />
         </div>
       </main>
