@@ -1,7 +1,5 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './App.css';
-import App from "./App";
 import Card from "./Card";
 
 function Projects(props) {
@@ -13,29 +11,11 @@ function Projects(props) {
       <link rel="stylesheet"
             href="styles/theme.css"
             media="all"/>
+      <script src="scripts/jquery-3.4.1.min.js" type="text/javascript"></script>
+      <script src="scripts/accordion.js" type="text/javascript"></script>
       <title>Renee Hoh</title>
     </head>
     <body>
-      <header>
-          <div class="row">
-            <div className="navigation-left">                      
-                <Link to="/" className="item">Projects</Link>
-                <Link to="/Writing" className="item">Writing</Link>
-            </div>
-            <div class="container">
-                <div class="logo-container">
-                    <img class ="header-logo" src="images/squiggles.svg" alt="Logo" />
-                </div>
-                <div class="name-container">
-                    <p class="header-name">Renee Hoh</p>
-                </div>
-            </div>
-            <div className="navigation-right">
-                <Link to="/About" className="item">About</Link>
-                <Link to="/resume-renee.pdf" className="item">Resume</Link>
-            </div>
-        </div>
-      </header>
       <main class="project-main">
         <div class="row">
         <Card
@@ -70,6 +50,22 @@ function Projects(props) {
             blurb="A clicker alternative and classroom tool to keep professors and students engaged."
         />
         </div>
+        <div class="row">
+        <Card
+            link="/UniPantry"
+            image="images/unipantry-cover.png"
+            title="UniPantry"
+            category="Product design, UX research"
+            blurb="A startup dedicated to helping college students meal prep and budget their money."
+        />
+        <Card
+            link="/Arcade"
+            image="images/arcade-cover.png"
+            title="Arcade: Adobe Creative Jam"
+            category="Product design"
+            blurb="App concept to recommend games to senior citizens."
+        />
+        </div>
       </main>
     
       <footer>
@@ -79,8 +75,8 @@ function Projects(props) {
         </div>
         <p class="made-by"> Thanks for scrolling! ❥ Made by Renee </p>
       </footer>
-    </body>
-    </html>
+      </body>
+      </html>
   );
 }
 

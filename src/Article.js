@@ -10,11 +10,15 @@ function Article(props) {
         </div>
         <div className="article-title">{props.title}</div>
         <div className="article-category">{props.category}</div>
-        <div>
-            <div className="article-timeline">{props.timeline}</div>
-            <div className="article-team">{props.team}</div>
-            <div className="article-focus">{props.focus}</div>
-            <div className="article-timeline">{props.timeline}</div>
+        <div class="row details">
+            <p>Time Frame</p>
+            <p>Time Frame</p>
+            <p>Time Frame</p>
+            <p>Time Frame</p>
+            <div className="article-time"> {props.time} | </div> 
+            <div className="article-team"> {props.team} | </div>
+            <div className="article-focus"> {props.focus} | </div>
+            <div className="article-time"> {props.time} | </div>
         </div>
     </div>
   )

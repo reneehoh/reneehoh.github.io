@@ -3,18 +3,18 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Writing from './Writing.js'; 
 import Projects from './Projects.js'; 
 import About from './About.js'; 
+import Pollo from './pollo.js'; 
+import Spotify from './spotify.js'; 
+import CornellCreatives from './cornell-creatives.js'; 
+import UniPantry from './unipantry.js'; 
+import Arcade from './arcade.js'; 
 import './App.css';
 
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        
-      <Route exact path="/" component={Projects} />
-      <Route path="/writing" component={Writing} />
-      <Route path="/about" component={About} />
-      <Route path="/documents/resume-renee.pdf"/>
-      <div class="row">
+      <div class="header row">
           <div className="navigation-left">                             
           <Link to="/" className="item">Projects</Link>
           <Link to="/Writing" className="item">Writing</Link>
@@ -24,15 +24,24 @@ function App() {
                 <img class ="header-logo" src="images/squiggles.svg" alt="Logo" />
             </div>
             <div class="name-container">
-                <p class="header-name">Renee Hoh</p>
+                <Link to ="/" class="header-name">Renee Hoh</Link>
             </div>
         </div>
         <div className="navigation-right">
           <Link to="/About" className="item">About</Link>
-          <Link to="/Resume" className="item">Resume</Link>
+          <a href="documents/reneehoh-resume2020.pdf" className="item">Resume</a>
         </div>
       </div>
+      <Route exact path="/" component={Projects} />
+      <Route path="/writing" component={Writing} />
+      <Route path="/about" component={About} />
+      <Route path="/spotify" component={Spotify} />
+      <Route path="/pollo" component={About} />
+      <Route path="/cornell-creatives" component={CornellCreatives} />
+      <Route path="/unipantry" component={UniPantry} />
+      <Route path="/arcade" component={Arcade} />
     </div>
+ 
   </BrowserRouter>
     
   );

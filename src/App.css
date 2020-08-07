@@ -1,13 +1,4 @@
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
 
 body {
   font-family: 'Avenir', sans-serif;
@@ -32,6 +23,10 @@ header {
 
 main {
   margin: 0% 20% 0% 20%;
+}
+
+.header {
+  margin-bottom: 5%;
 }
 
 .project-main {
@@ -74,12 +69,13 @@ a:hover {
   color: #4F4F4F;
   text-align: right;
   margin-right: 10%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
 .header-name {
   font-weight: bolder;
-  margin-top: 8%;
+  margin-top: 10%;
+  color: black;
 }
 
 .header-logo {
@@ -106,19 +102,11 @@ a:hover {
   color: #4F4F4F;
   text-align: left;
   margin-left: 5%;
-  margin-top: 5%;
+  margin-top: 3%;
 }
 
-/**
-nav ul{
-  padding-bottom: 20px;
-  display:flex;
-  flex-direction:row;
-  list-style: none;
-  font-size: 80%;
-  font-weight: 50%;
-  color: #4F4F4F;
-}*/
+
+
 
 .index {
   display: flex;
@@ -277,6 +265,20 @@ ul {
 }
 
 */
+
+.article-cover {
+  width: 100%;
+  margin: auto;
+}
+
+.article-title {
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.details {
+  margin: auto;
+}
 
 @keyframes App-logo-spin {
   from {

@@ -14,36 +14,15 @@ function About() {
       <title>Renee Hoh</title>
     </head>
     <body>
-    <header>
-          <div class="row">
-            <div className="navigation-left">                      
-                <Link to="/" className="item">Projects</Link>
-                <Link to="/Writing" className="item">Writing</Link>
-            </div>
-            <div class="container">
-                <div class="logo-container">
-                    <img class ="header-logo" src="images/squiggles.svg" alt="Logo" />
-                </div>
-                <div class="name-container">
-                    <p class="header-name">Renee Hoh</p>
-                </div>
-            </div>
-            <div className="navigation-right">
-                <Link to="/About" className="item">About</Link>
-                <Link to="/resume-renee.pdf" className="item">Resume</Link>
-            </div>
-        </div>
-      </header>
       <main>
         <section>
         <div class="row">
           <img src="images/profile.png" alt="Profile picture" class="profile" />
           <div class="intro">
             <h1> Hey there! I'm Renee.</h1>
-            <p>I study Information Science with a concentration in User Experience at Cornell University.
-              I enjoy starting conversations and connecting with people –– whether it's through writing or design. I'm a big believer in accessibility of information and helping my community make informed choices. </p>
+            <p>I enjoy starting conversations and connecting with people –– whether it's through writing or design. I'm a big believer in accessibility of information and helping my community make informed choices. </p>
             <p> I spent last summer as a technical writing intern, writing developer-facing documentation for <a href="https://firebase.google.com/">@Firebase</a> at Google San Francisco. I worked with software engineers to create step-by-step tutorials
-              and with UX designers to create relevant mockups to help users navigate Firebase's exciting features. </p>
+              and with UX designers to create relevant mockups to help users navigate Firebase's exciting features.</p>
             <p>When I'm in Ithaca, I am a product designer for <a href="https://www.cornellappdev.com/">@AppDev</a>, design for <a href="http://cornellcreatives.com/"> @CornellCreatives</a> and write news articles for <a href="https://cornellsun.com/">@TheCornellDailySun</a>.</p>
             <p> Start a conversation with me at <a href="mailto:renee.hoh@gmail.com">renee.hoh@gmail.com</a>!</p>
           </div>
