@@ -130,7 +130,6 @@ function Spotify() {
         </p>
         <p>Read my Medium article on this case study here.</p>
 
-
       </main>
 
       <footer>

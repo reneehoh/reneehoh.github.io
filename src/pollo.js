@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './App.css';
 import Article from "./Article";
 
-function Spotify() {
+function Pollo() {
   return (
     <html lang="en">
     <head>
@@ -18,7 +18,7 @@ function Spotify() {
       <main>
         <Article
             image="images/pollo-thumbnail.png"
-            title="Pear is a tool for professors and students to interact"
+            title="Pollo is a tool for professors and students to interact"
             time="Spring 2020"
             team="Cornell AppDev"
             role="Product design, graphic design" 
@@ -38,4 +38,4 @@ function Spotify() {
 );
 }
 
-export default Spotify;
+export default Pollo;

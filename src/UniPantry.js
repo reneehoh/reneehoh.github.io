@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './App.css';
 import Article from "./Article";
 
-function Spotify() {
+function UniPantry() {
   return (
     <html lang="en">
     <head>
@@ -17,15 +17,16 @@ function Spotify() {
     <body>
       <main>
         <Article
-            image="images/UniPantry-thumbnail.png"
-            title="Pear is a tool for professors and students to interact"
+            image="images/unipantry-thumbnail.png"
+            title="UniPantry is a tool for professors and students to interact"
             time="March 2020 - Present"
             team="Sharon Li, product designer"
             role="Product design, prototyping" 
             tools="Figma" />
+<p> </p>
 <p>Thanks for you interest in UniPantry! This project is protected by a NDA, so I'm unable to share the details of
     the design process or the UI of the app on publicly until after it launches.</p>
-    <p><a href="mailto:renee.hoh@gmail.com">Contact me</a>to talk more about this project!</p>
+    <p><a href="mailto:renee.hoh@gmail.com">Contact me</a> to talk more about this project!</p>
 </main>
 
 <footer>
@@ -40,4 +41,4 @@ function Spotify() {
 );
 }
 
-export default Spotify;
+export default UniPantry;
