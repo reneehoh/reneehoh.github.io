@@ -16,7 +16,7 @@ function About() {
       <main>
         <div class="content">
         <section>
-        <div class="row">
+        <div class="row about-content">
           <img src="images/profile.png" alt="Profile picture" class="profile" />
           <div class="intro">
             <h1> Hey there! I'm Renee.</h1>

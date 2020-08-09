@@ -11,6 +11,11 @@ body {
   margin: auto;
 }
 
+a {
+  text-decoration: none;
+  color: #83AA75;
+}
+
 .top {
   position: absolute;
   top: 20px;
@@ -30,17 +35,20 @@ header {
   margin-bottom: 5%;
 }
 
-.project-main {
-  margin: 0% 10% 0% 10%;
+.about-content {
+  width: 700;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-.about-main {
-  margin: 0% 15% 5% 15%;
+.article-content {
+  width: 800px;
+  margin-left: 20%;
+  margin-right: 20%;
 }
 
-.writing-main {
-  margin-left: 15%;
-  margin-right: 15%;
+main {
+  margin-bottom: 50px;
 }
 
 .img-example {
@@ -67,9 +75,9 @@ h2 {
 }
 
 .writing-header-2 {
-  font-weight: 200;
+  font-weight: 400;
   font-size:  80%;
-  color: #4F4F4F;
+  color: gray;
 }
 
 .writing-header-3 {
@@ -84,6 +92,15 @@ h2 {
   font-weight: 70%;
 }
 
+.coming-soon {
+  color: gray;
+}
+
+.pub-spacing {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
 .publication {
   width:300px;
 }
@@ -94,10 +111,7 @@ h2 {
   margin-top: 10px;
   font-weight:500;
 }
-a {
-  text-decoration: none;
-  color: #83AA75;
-}
+
 
 a:hover {
   color: rgb(29, 61, 28);
@@ -114,8 +128,19 @@ a:hover {
   font-weight: 110%;
   color: #4F4F4F;
   text-align: right;
-  margin-right: 10%;
+  margin-right: 7%;
   margin-top: 3%;
+}
+
+.navigation-right a, .navigation-left a {
+  color: black;
+  font-size: 70%;
+}
+
+.navigation-right a:hover, .navigation-left a:hover {
+  color: #83AA75;
+  font-weight: 400;
+  letter-spacing: .01em;
 }
 
 .header-name {
@@ -316,6 +341,7 @@ img {
 .details {
   margin: auto;
   font-size: 80%;
+  margin-bottom: 50px;
 }
 
 .detail {

@@ -15,7 +15,7 @@ function CornellCreatives() {
     </head>
     <body>
       <main>
-      <div class="content">
+      <div class="content article-content">
         <Article
             image="images/cc-thumbnail.png"
             title="Branding and designing for Cornell Creatives"

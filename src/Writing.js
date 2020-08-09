@@ -17,7 +17,7 @@ function Writing() {
     <body>
       <main>
       <div class="content">
-      <div class="row">
+      <div class="row pub-spacing">
           <section class="publication">
           <h1>Android Partner Engineering Docs</h1>
           <h2 class="writing-header-2 writing-date"> Summer 2020 </h2>
@@ -26,12 +26,12 @@ function Writing() {
             </h2>
           </section>
           <section class="write">
-            <p>Writing artifacts will become available after the Android release!</p>
-            <p>For now, visit <a href="https://source.android.com">
+            <p class="coming-soon">Writing artifacts will become available after the Android release!</p>
+            <p class="coming-soon">For now, visit <a href="https://source.android.com">
               source.android.com</a>.</p>
           </section>
           </div>
-        <div class="row">
+        <div class="row pub-spacing">
           <section class="publication">
           <h1>Firebase Docs</h1>
           <h2 class="writing-header-2 writing-date"> Summer 2019 </h2>
@@ -49,7 +49,7 @@ function Writing() {
           </section>
           </div>
     
-      <div class="row">
+      <div class="row pub-spacing">
       <section class="publication">
         <h1><em>The Cornell Daily Sun</em></h1>
         <h2 class="writing-header-2 writing-date"> Aug. 2019 - present </h2>
@@ -65,7 +65,7 @@ function Writing() {
                 Confused About Your Degree Requirements? A New App Is Here to Help You.</a></p>
             </section>
             </div>
-     <div class="row">
+     <div class="row pub-spacing">
           <section class="publication">
         <h1><em>The California Aggie</em></h1>
         <h2 class="writing-header-2 writing-date"> Sept. 2018 - June 2019 </h2>
@@ -120,7 +120,7 @@ function Writing() {
                     Ethnic studies push for a seat at the table</a></p>
                 </section>
             </div>
-      <div class="row">
+      <div class="row pub-spacing">
       <section class="publication">
         <h1><em>The Campanile</em></h1>
         <h2 class="writing-header-2 writing-date"> Jan. 2017 - June 2018 </h2>
@@ -159,7 +159,7 @@ function Writing() {
                 Law protects education rights of sexual assault perpetrator</a></p>
              </section>
              </div>
-       <div class="row">
+       <div class="row pub-spacing">
       <section class="publication">
          <h1><em>The Stanford Daily</em></h1>
          <h2 class="writing-header-2 writing-date"> Summer 2019 </h2>

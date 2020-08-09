@@ -15,7 +15,7 @@ function UniPantry() {
     </head>
     <body>
       <main>
-      <div class="content">
+      <div class="content article-content">
         <Article
             image="images/unipantry-thumbnail.png"
             title="UniPantry is a tool for professors and students to interact"

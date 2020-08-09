@@ -15,7 +15,7 @@ function Arcade() {
     </head>
     <body>
       <main>
-        <div class="content">
+        <div class="content article-content">
         <Article
             image="images/arcade-thumbnail.png"
             title="Arcade connects seniors with gaming communities"
