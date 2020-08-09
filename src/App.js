@@ -14,7 +14,7 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-      <div class="header row">
+      <div class="header header-row">
           <div className="navigation-left">                             
           <Link to="/" className="item">Projects</Link>
           <Link to="/Writing" className="item">Writing</Link>
