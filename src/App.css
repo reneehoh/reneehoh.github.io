@@ -67,14 +67,20 @@ h2 {
 
 .writing-header-2 {
   font-weight: 200;
-  font-size:  70%;
-  color: gray;
+  font-size:  80%;
+  color: #4F4F4F;
 }
 
 .writing-header-3 {
   font-weight: 800;
   color: gray;
   font-size: 80%;
+}
+
+.writing-date {
+  margin-top:0px;
+  color: gray;
+  font-weight: 70%;
 }
 
 .publication {
@@ -187,6 +193,7 @@ a:hover {
   color: gray;
   font-size: 90%;
   font-weight: 300;
+  width: 500px;
 }
 
 .blurb {

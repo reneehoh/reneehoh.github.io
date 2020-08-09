@@ -18,7 +18,7 @@ function Arcade() {
         <Article
             image="images/arcade-thumbnail.png"
             title="Arcade connects seniors with gaming communities"
-            time="10 weeks"
+            time="Summer 2020; 10 weeks"
             team="Connie Liu, product designer"
             role="Product design, prototyping" 
             tools="Adobe XD, Figma" />

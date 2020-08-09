@@ -19,7 +19,9 @@ function Writing() {
       <div class="row">
           <section class="publication">
           <h1>Android Partner Engineering Docs</h1>
-            <h2 class="writing-header-2"> Technical Writer Intern in Summer 2020.
+          <h2 class="writing-header-2 writing-date"> Summer 2020 </h2>
+            <h2 class="writing-header-2"> Technical Writer Intern; creating Android release documentations and 
+            implementing site-wide change to the website navigation to improve content accessibility.
             </h2>
           </section>
           <section class="write">
@@ -31,8 +33,10 @@ function Writing() {
         <div class="row">
           <section class="publication">
           <h1>Firebase Docs</h1>
+          <h2 class="writing-header-2 writing-date"> Summer 2019 </h2>
             <h2 class="writing-header-2"> Technical Writer Intern at Google
-             San Francisco in Summer 2019. Documents up to date as of Jan. 2020.</h2>
+             San Francisco; writing developer-facing documentation
+            for Firebase's custom domain and in-app messaging features.</h2>
           </section>
           <section class="write">
             <p><a href="https://firebase.google.com/docs/hosting/custom-domain">
@@ -47,7 +51,8 @@ function Writing() {
       <div class="row">
       <section class="publication">
         <h1><em>The Cornell Daily Sun</em></h1>
-        <h2 class="writing-header-2"> Writing news and feature-esque articles for the print
+        <h2 class="writing-header-2 writing-date"> Aug. 2019 - present </h2>
+        <h2 class="writing-header-2"> News reporter; writing news and feature-esque articles for the print
          and online news section. </h2>
          </section>
             <section class="write">
@@ -62,6 +67,7 @@ function Writing() {
      <div class="row">
           <section class="publication">
         <h1><em>The California Aggie</em></h1>
+        <h2 class="writing-header-2 writing-date"> Sept. 2018 - June 2019 </h2>
           <h2 class="writing-header-2"> City News Reporter; writing about all things Davis. </h2>
           </section>
               <section class="write">
@@ -116,7 +122,8 @@ function Writing() {
       <div class="row">
       <section class="publication">
         <h1><em>The Campanile</em></h1>
-          <h2 class="writing-header-2"> News + Opinion Editor, 2017-2018</h2>
+        <h2 class="writing-header-2 writing-date"> Jan. 2017 - June 2018 </h2>
+          <h2 class="writing-header-2"> News &amp; Opinion Editor and Illustrator.</h2>
           </section>
               <section class="write">
               <h3 class="writing-header-3"> My picks:</h3>
@@ -154,7 +161,9 @@ function Writing() {
        <div class="row">
       <section class="publication">
          <h1><em>The Stanford Daily</em></h1>
-            <h2 class="writing-header-2"> Journalism Intern in Summer 2017.</h2>
+         <h2 class="writing-header-2 writing-date"> Summer 2019 </h2>
+            <h2 class="writing-header-2"> Journalism Intern; interviewing Stanford professors and students
+            for feature articles.</h2>
             </section>
               <section class="write">
                 <p><a href="https://www.stanforddaily.com/2017/08/13/potential-move-to-year-round-daylight-saving-time-student-response/">
