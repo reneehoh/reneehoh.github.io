@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 import './App.css';
 import Article from "./Article";
 
-function About() {
+function Spotify() {
   return (
     <html lang="en">
     <head>
@@ -39,11 +39,11 @@ function About() {
             </p>
         <h2>User research</h2>
         <p>
-            I spoke to frequen Spotify users to see how they used the music app in their day-to-day.
+            I spoke to frequent Spotify users to see how they used the music app in their day-to-day.
             I focused on how they explore music and archive the songs they enjoy. I found that:
             <ol>
                 <li>
-                    Users don't see self-made playlists as the easiest way... <em>("it's too tedious")</em>
+                    Users don't see self-made playlists as the easiest way... <em>("It's too tedious to maintain")</em>
                 </li>
                 <li>
                     ...Or the most organized way to curate their music <em>("I end up creating one large playlist")</em>
@@ -71,10 +71,11 @@ function About() {
                 <li>Encourage collaboration?</li>
                 <li>Make Spotify more interactive?</li>
             </ul>
-            After sketching potentional UIs for 3 different solutions, I decided on a
-             <strong>collaborative queue</strong> feature because it focused on <strong>active interaction,</strong>
+            After sketching potentional UIs for 3 different solutions, I decided on a 
+             <strong> collaborative queue</strong> feature because it focused on <strong>active interaction,</strong>
              and had high feasibility/impact.
         </p>
+        <img class="img-example" src="images/spotify-sketch.png" alt="Sketch of collaborative queue feature."/>
         <p>
             To differentiate my product from Spotify's social listening feature, which was in-the-works at the time, 
             I conducted another round of market research. I found Google Music's save queue feature, which allowed 
@@ -90,16 +91,14 @@ function About() {
         I imagine this being used for road trips, (themed) parties, etc. when music is played over a speaker. </p>
         <p>While Spotify is primarily a music streaming app, I think it’s important for users to start
         conversations outside of the app itself, and to use music to create new collaborations or friendships.</p>
-        <h2>Medium fidelity explorations</h2>
-        <p>I used my sketches to explore different entry points for the collaborative queue feature:</p>
-        <img/>
-        <p>Then I played around with visual design:</p>
-        <img/>
         <h2>Iterating, iterating, iterating</h2>
         <h3>Entry point explorations</h3>
-            <img/>
+        <p>The most important medium-fidelity explorations was the entry point for the collaborative queue.</p>
+            <img class="img-example" src="images/spotify-entry-point.png" alt="Medium fidelity explorations of entry points."/>
             <p>
-            I chose this because...
+            Ultimately, I choose option C because it associated the collaborative queue featuring with the existing queue feature, creating
+            <strong>a sense of familiarity for users</strong>. Additionally, this entry point <strong>allowed users to listen at the same time while not physically
+            together</strong>, as required by option B.
             </p>
         <h3>Sharing queue explorations</h3>
             <img/>
@@ -113,8 +112,12 @@ function About() {
             </p>
         <h2>Entering the realm of visual design:</h2>
         <h3>UI Kit</h3>
-        <h2>Introducing the prototype</h2>
-        <img/>
+        <h2>Introducing the prototype 🎉</h2>
+        <img class="img-example" src="images/spotify-prototype.png" alt="Prototype of full Spotify workflow."
+        />
+        <div class="gif-container">
+            <img class="gif-example" src="assets/spotify-prototype.gif" alt="Gif of full Spotify workflow."/>
+        </div>
         <h2>Reflection</h2>
         <p>Spotify is already a successful, easy-to-use app and serves its purpose for 
             streaming music. However, I identified a lack of interaction among users. The collaborative
@@ -142,4 +145,4 @@ function About() {
   );
 }
 
-export default About;
+export default Spotify;

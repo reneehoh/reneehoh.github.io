@@ -31,7 +31,8 @@ function Projects(props) {
             image="images/google-cover.png"
             title="Google Technical Writing Internships"
             category="Technical writing, UX research"
-            blurb="Writing release documentation and designing informational graphics. Contact me for more details on this project."
+            blurb="Writing release documentation and designing informational graphics for Android Partner Engineering (Summer 2020)
+            and Firebase (Summer 2019). Contact me for more details on my internships."
         />
         </div>
         <div class="row">
@@ -57,14 +58,14 @@ function Projects(props) {
             title="UniPantry"
             category="Product design, UX research"
             blurb="A startup dedicated to helping college students meal prep and budget their money. My work for this project
-            is protected under NDA. Please email me for more details"
+            is protected under NDA. Contact me for more details on my product design contributions."
         />
         <Card
             link="/Arcade"
             image="images/arcade-cover.png"
             title="Arcade: Summer 2020 Adobe Creative Jam"
             category="Product design"
-            blurb="An app concept to recommend games to senior citizens. Case study coming soon!"
+            blurb="An app concept to recommend games to senior citizens, created in just under 48 hours. Case study coming soon!"
         />
         </div>
       </main>

@@ -17,10 +17,22 @@ function Writing() {
     </head>
     <body>
       <main class="writing-main">
+      <div class="row">
+          <section class="publication">
+          <h1>Android Partner Engineering Docs</h1>
+            <h2 class="writing-header-2"> Technical Writer Intern in Summer 2020.
+            </h2>
+          </section>
+          <section class="write">
+            <p>Writing artifacts will become available after the Android release!</p>
+            <p>For now, visit <a href="https://source.android.com">
+              source.android.com</a>.</p>
+          </section>
+          </div>
         <div class="row">
           <section class="publication">
-          <h1>Firebase Documentation</h1>
-            <h2 class="writing-header-2"> Technical Writing Intern at Google
+          <h1>Firebase Docs</h1>
+            <h2 class="writing-header-2"> Technical Writer Intern at Google
              San Francisco in Summer 2019. Documents up to date as of Jan. 2020.</h2>
           </section>
           <section class="write">

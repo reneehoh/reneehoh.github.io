@@ -3,11 +3,11 @@ import { BrowserRouter, Route, Link } from 'react-router-dom';
 import Writing from './Writing.js'; 
 import Projects from './Projects.js'; 
 import About from './About.js'; 
-import Pollo from './pollo.js'; 
-import Spotify from './spotify.js'; 
+import Pollo from './Pollo.js'; 
+import Spotify from './Spotify.js'; 
 import CornellCreatives from './cornell-creatives.js'; 
-import UniPantry from './unipantry.js'; 
-import Arcade from './arcade.js'; 
+import UniPantry from './Unipantry.js'; 
+import Arcade from './Arcade.js'; 
 import './App.css';
 
 function App() {
@@ -40,6 +40,7 @@ function App() {
       <Route path="/cornell-creatives" component={CornellCreatives} />
       <Route path="/unipantry" component={UniPantry} />
       <Route path="/arcade" component={Arcade} />
+      <Route path="/pollo" component={Pollo} />
     </div>
  
   </BrowserRouter>

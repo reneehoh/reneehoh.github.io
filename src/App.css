@@ -42,6 +42,20 @@ main {
   margin-right: 15%;
 }
 
+.img-example {
+  width: 775px;
+}
+
+.gif-container {
+  justify-content: center;
+}
+
+.video-example, .gif-example {
+  width: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
 h1 {
   margin-top: 20px;
   size: 200%;
@@ -90,7 +104,7 @@ a:hover {
 .navigation-right {
   width:50px;
   font-size: 90%;
-  font-weight: 90%;
+  font-weight: 110%;
   color: #4F4F4F;
   text-align: right;
   margin-right: 10%;
@@ -126,7 +140,7 @@ a:hover {
 .navigation-left {
   width:50px;
   font-size: 90%;
-  font-weight: 90%;
+  font-weight: 110%;
   color: #4F4F4F;
   text-align: left;
   margin-left: 5%;
@@ -231,10 +245,6 @@ img {
   flex-grow: 1;
 }*/
 
-ul {
-  margin-right: 50px;
-  margin-top: 30px;
-}
 
 .br {
   margin-top: 10px;

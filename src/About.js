@@ -20,11 +20,12 @@ function About() {
           <img src="images/profile.png" alt="Profile picture" class="profile" />
           <div class="intro">
             <h1> Hey there! I'm Renee.</h1>
-            <p>I enjoy starting conversations and connecting with people –– whether it's through writing or design. I'm a big believer in accessibility of information and helping my community make informed choices. </p>
-            <p> I spent last summer as a technical writing intern, writing developer-facing documentation for <a href="https://firebase.google.com/">@Firebase</a> at Google San Francisco. I worked with software engineers to create step-by-step tutorials
-              and with UX designers to create relevant mockups to help users navigate Firebase's exciting features.</p>
-            <p>When I'm in Ithaca, I am a product designer for <a href="https://www.cornellappdev.com/">@AppDev</a>, design for <a href="http://cornellcreatives.com/"> @CornellCreatives</a> and write news articles for <a href="https://cornellsun.com/">@TheCornellDailySun</a>.</p>
-            <p> Start a conversation with me at <a href="mailto:renee.hoh@gmail.com">renee.hoh@gmail.com</a>!</p>
+            <p>I'm curious about the way each person navigates the earth, and so I strive to understand them and their everyday frustrations –– whether it's through writing or design. I'm a big believer in information accessibility and helping my community make informed choices. </p>
+            <p>I'm a rising junior at Cornell University, studying information science with a concentration in user experience.
+            When I'm in Ithaca, I design apps for <a href="https://www.cornellappdev.com/">@AppDev</a>, create illustrations for <a href="http://cornellcreatives.com/"> @CornellCreatives</a>, and write for <a href="https://cornellsun.com/">@TheCornellDailySun</a>.</p>
+            <p>This summer, I'm a returning technical writer intern for <a href="https://www.source.android.com/">@AndroidPartnerEngineering</a>, writing documentation for the upcoming Android release. Previously, I was a technical writer intern for <a href="https://firebase.google.com/">@Firebase</a> at Google San Francisco.</p>
+            <p>In my downtime, I dabble in film photography, (try to) complete NYT crossword puzzles, and browse creative branding initiatives. </p>
+            <p>Start a conversation with me at <a href="mailto:renee.hoh@gmail.com">renee.hoh@gmail.com</a>!</p>
           </div>
           </div>
         </section>
