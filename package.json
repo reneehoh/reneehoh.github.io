@@ -10,7 +10,8 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-router-dom": "^5.2.0",
-    "react-scripts": "3.4.1"
+    "react-scripts": "3.4.1",
+    "watch": "^1.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -36,8 +37,8 @@
     ],
     "homepage": "http://reneehoh.github.io/reneehoh.github.io"
   },
-  
   "devDependencies": {
     "gh-pages": "^3.1.0"
-  }
+  },
+  "watch": "watch 'npm run build' ./reneehoh.github.io"
 }
