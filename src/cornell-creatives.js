@@ -15,6 +15,7 @@ function CornellCreatives() {
     </head>
     <body>
       <main>
+      <div class="content">
         <Article
             image="images/cc-thumbnail.png"
             title="Branding and designing for Cornell Creatives"
@@ -24,7 +25,7 @@ function CornellCreatives() {
             tools="Figma, Adobe Photoshop" />
       <img class="img-example" src="images/cc-logos.png" alt="Explorations of Cornell Creatives logos."/>
 <img class="img-example" src="images/cc-illustrations.png" alt="Flat illustrations for each Cornell Creatives medium."/>
-
+</div>
 </main>
 
 <footer>

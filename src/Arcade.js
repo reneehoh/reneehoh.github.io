@@ -15,6 +15,7 @@ function Arcade() {
     </head>
     <body>
       <main>
+        <div class="content">
         <Article
             image="images/arcade-thumbnail.png"
             title="Arcade connects seniors with gaming communities"
@@ -22,6 +23,7 @@ function Arcade() {
             team="Connie Liu, product designer"
             role="Product design, prototyping" 
             tools="Adobe XD, Figma" />
+            </div>
 </main>
 
 <footer>

@@ -21,8 +21,9 @@ header {
   margin-bottom: 10%;
 }
 
-main {
-  margin: 0% 20% 0% 20%;
+.content {
+  width: 1000px;
+  margin: auto;
 }
 
 .header {

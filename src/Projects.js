@@ -16,7 +16,8 @@ function Projects(props) {
       <title>Renee Hoh</title>
     </head>
     <body>
-      <main class="project-main">
+      <main>
+      <div class="content">
         <div class="row">
         <Card
             link="/spotify"
@@ -67,6 +68,7 @@ function Projects(props) {
             category="Product design"
             blurb="An app concept to recommend games to senior citizens, created in just under 48 hours. Case study coming soon!"
         />
+        </div>
         </div>
       </main>
     

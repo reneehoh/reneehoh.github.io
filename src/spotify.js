@@ -15,6 +15,7 @@ function Spotify() {
     </head>
     <body>
       <main>
+      <div class="content">
         <Article
             image="images/spotify-thumbnail.png"
             title="Spotify Concept: Creating memories with collaborative queues"
@@ -128,7 +129,7 @@ function Spotify() {
             creating delightful products that engage the user in meaningful interations.
         </p>
         <p>Read my Medium article on this case study here.</p>
-
+</div>
       </main>
 
       <footer>

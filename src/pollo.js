@@ -15,6 +15,7 @@ function Pollo() {
     </head>
     <body>
       <main>
+      <div class="content">
         <Article
             image="images/pollo-thumbnail.png"
             title="Pollo is a tool for professors and students to interact"
@@ -22,7 +23,7 @@ function Pollo() {
             team="Cornell AppDev"
             role="Product design, graphic design" 
             tools="Figma, Zeplin" />
-
+</div>
 </main>
 
 <footer>

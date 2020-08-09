@@ -13,7 +13,8 @@ function About() {
       <title>Renee Hoh</title>
     </head>
     <body>
-      <main class="about-main">
+      <main>
+        <div class="content">
         <section>
         <div class="row">
           <img src="images/profile.png" alt="Profile picture" class="profile" />
@@ -28,6 +29,7 @@ function About() {
           </div>
           </div>
         </section>
+        </div>
       </main>
 
       <footer>

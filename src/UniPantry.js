@@ -15,6 +15,7 @@ function UniPantry() {
     </head>
     <body>
       <main>
+      <div class="content">
         <Article
             image="images/unipantry-thumbnail.png"
             title="UniPantry is a tool for professors and students to interact"
@@ -26,6 +27,7 @@ function UniPantry() {
 <p>Thanks for you interest in UniPantry! This project is protected by a NDA, so I'm unable to share the details of
     the design process or the UI of the app on publicly until after it launches.</p>
     <p><a href="mailto:renee.hoh@gmail.com">Contact me</a> to talk more about this project!</p>
+    </div>
 </main>
 
 <footer>

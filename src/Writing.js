@@ -15,7 +15,8 @@ function Writing() {
       <title>Renee Hoh</title>
     </head>
     <body>
-      <main class="writing-main">
+      <main>
+      <div class="content">
       <div class="row">
           <section class="publication">
           <h1>Android Partner Engineering Docs</h1>
@@ -175,6 +176,7 @@ function Writing() {
                 <p><a href="https://www.stanforddaily.com/2017/07/07/de-gb-stanford-designed-adhesive-destined-to-clean-space-debris/">
                   Stanford-designed adhesive designed to clean space debris</a></p>
               </section>
+              </div>
               </div>
       </main>
     
