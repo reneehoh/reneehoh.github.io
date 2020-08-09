@@ -1,5 +1,4 @@
 import React from 'react';
-import {Link} from 'react-router-dom';
 import './App.css';
 import Article from "./Article";
 
@@ -23,7 +22,6 @@ function Arcade() {
             team="Connie Liu, product designer"
             role="Product design, prototyping" 
             tools="Adobe XD, Figma" />
-
 </main>
 
 <footer>
