@@ -6,8 +6,8 @@ import About from './About.js';
 import Pollo from './pollo.js'; 
 import Spotify from './spotify.js'; 
 import CornellCreatives from './cornell-creatives.js'; 
-import UniPantry from './unipantry.js'; 
-import Arcade from './arcade.js'; 
+import UniPantry from './UniPantry.js'; 
+import Arcade from './Arcade.js'; 
 import './App.css';
 
 function App() {
