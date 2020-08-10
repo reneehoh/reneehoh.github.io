@@ -106,7 +106,7 @@ function Spotify() {
         <img class="img-example" src="images/spotify-enter-queue.png" alt="Enter queue Spotify workflow."/>
         <h3>Add a song to the queue</h3>
         <img class="img-example" src="images/spotify-add.png" alt="Add song Spotify workflow."/>
-        <h3>View your friends contributing ot the queue</h3>
+        <h3>View which of your friends are contributing</h3>
         <img class="img-example" src="images/spotify-contributors.png" alt="Contributors Spotify workflow."/>
         <h3>Leave a queue session</h3>
         <img class="img-example" src="images/spotify-leave.png" alt="Leave queue Spotify workflow."/>
