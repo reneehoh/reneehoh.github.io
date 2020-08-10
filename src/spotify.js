@@ -112,6 +112,8 @@ function Spotify() {
         <img class="img-example" src="images/spotify-leave.png" alt="Leave queue Spotify workflow."/>
         <h2>Entering the realm of visual design:</h2>
         <h3>UI Kit</h3>
+        <img class="img-example" src="images/spotify-ui-kit.png" alt="UI kit for Spotify workflow."
+        />
         <h2>Introducing the full prototype 🎉</h2>
         <img class="img-example" src="images/spotify-prototype.png" alt="Prototype of full Spotify workflow."
         />
@@ -129,7 +131,7 @@ function Spotify() {
             creating delightful products that engage the user in meaningful interations.
         </p>
         <p>Read my <a href="https://medium.com/@renee.hoh/spotify-concept-creating-memories-with-collaborations-558b2a3f4ca3">
-            Medium article</a> on this case study.</p>
+            Medium article</a> for more on this case study.</p>
 </div>
       </main>
 
