@@ -140,11 +140,12 @@ a:hover {
 .navigation-right a, .navigation-left a {
   color: black;
   font-size: 80%;
+  font-weight: 400;
+  letter-spacing: .01em;
 }
 
 .navigation-right a:hover, .navigation-left a:hover {
   color: #83AA75;
-  font-weight: 400;
   letter-spacing: .01em;
 }
 
@@ -352,6 +353,14 @@ img {
 .detail {
   margin-right: 5%;
   width: 200px;
+}
+
+#pollo-insta {
+  width: 300px;
+}
+
+#pollo-fb {
+  width: 500px;
 }
 
 @keyframes App-logo-spin {

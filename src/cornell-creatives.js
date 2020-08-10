@@ -53,12 +53,12 @@ function CornellCreatives() {
 <h2>Social media marketing</h2>
 <p> I've attached select posters that I have designed for Cornell Creatives initiatives and events.</p>
 <h3>Summer 2020 Brand Recruitment Posters</h3>
-<img class="img-example" src="images/cc-recruitment.png" alt="Recruitment posters"/>
+<img class="img-example" src="images/cc-recruit.png" alt="Recruitment posters"/>
 <h3>Featured Creators Substack Promotion</h3>
 <img class="img-example" src="images/cc-featured.png" alt="Featured creators promotional material"/>
 
 <p>The 2020 redesign of the Cornell Creatives website has not launched yet, so stay tuned for my case study on 
-  my UX contributions. For now, visit the current <a href="cornellcreatives.com">Cornell Creatives site</a>
+  my UX contributions. For now, visit the current <a href="cornellcreatives.com">Cornell Creatives site</a>.
 </p>
 </div>
 </main>

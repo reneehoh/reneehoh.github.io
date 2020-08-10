@@ -23,6 +23,19 @@ function Pollo() {
             team="Cornell AppDev"
             role="Product design, graphic design" 
             tools="Figma, Zeplin" />
+      <h2>What does Pollo bring to the (classroom) table?</h2>
+      <p></p>
+      <h2>Launching Pollo</h2>
+      <h3>Social media posters</h3>
+        <div class="row">
+        <img id="pollo-insta" src="images/pollo-insta.png" alt="Instagram poster for Pollo."/>
+        <img id="pollo-fb" src="images/pollo-fb.png" alt="Facebook poster for Pollo."/>
+        </div>
+      <h3>App store graphics</h3>
+      <img class="img-example" src="images/pollo-appstore.png" alt="App store poster for Pollo."/>
+      <p>Download Pollo now in the <a href="https://apps.apple.com/us/app/pollo-polling-made-easy/id1355507891">
+        App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.cornellappdev.android.pollo">
+        Google Play Store </a> today!</p>
 </div>
 </main>
 
