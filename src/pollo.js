@@ -44,10 +44,9 @@ function Pollo() {
       <h2>Making Pollo my own</h2>
       <p>I joined the Pollo team when they had the goal of launching the app by the end of the semester. It was daunting to 
         familiarize myself with Figma files on Figma files of the Pollo designs that covered every possible interaction. I was tasked
-        with 3 main issues to tackle before the upcoming launch:</p>
+        with 2 main issues to tackle before the upcoming launch:</p>
       <ol>
         <li>Visually representing which answer is correct to the student-side user.</li>
-        <li>Notifying professors that they can export participation data.</li>
         <li>Create an identity and marketing artifacts for Pollo's launch.</li>
       </ol>
       <h2>1. How do I know which answer is correct?</h2>
@@ -59,7 +58,11 @@ function Pollo() {
           <li>The green and gray did not contrast heavily, posing accessibility issue for colorblind users.</li>
         </ul>
         <img class="img-example" src="images/pollo-original.png" alt="Original correct answer solution."/>
-        <p>I created iterations for indicating the correct answer while actively designing for both user considerations.</p>
+        <p>I created iterations for indicating the correct answer while actively designing for both user considerations. I 
+          specifically avoided solutions that required the use of red to indicate incorrect answers. When used in
+          classroom settings, red can carry a negative connotation that represents failure or defeat. I did not want to 
+          negatively impact the learning experience, so I focused more heavily on portraying the correct answer instead.
+        </p>
         <img class="img-example img-spacing" src="images/pollo-color.png" alt="Accesibility correct answer solution."/>
         <img class="img-example" src="images/pollo-noanswer.png" alt="No correct answer solution."/>
         <p>Ultimately, I chose the solution that uses a thicker stroke and darker green color to indicate the correct poll. It does
@@ -67,7 +70,16 @@ function Pollo() {
          Therefore, it is a viable solution for both audiences.</p>
          <p>The final interaction for instructors and students:</p>
          <img class="img-example" src="images/pollo-flow.png" alt="Correct answer work flow."/>
-      <h2>Launching Pollo</h2>
+      <h2>2. Sprucing up Pollo for its launch</h2>
+      <h3>Learning Pollo's identity </h3>
+      <p>Pollo exists to facilitate interactions and back-and-forths between professors and students.
+         I used small stars and sun rays to convey the experience of many students in a classroom inputting
+          their answers simultaneously. I used a subtle gradient for the background to convey
+           the dynamic nature of how the polls react to real-time results. The transparent components,
+            such as the Pollo logo, checkmarks, question marks, and percentage signs, represent the data visualizations that
+            formulate as the users answer the polls.</p>
+        <p>I wanted to highlight Pollo's unique features so I designed a custom poll that asks "What is Pollo?", in which all answers are correct.
+        </p>
       <h3>Social media posters</h3>
         <div class="row">
         <img id="pollo-insta" src="images/pollo-insta.png" alt="Instagram poster for Pollo."/>
@@ -75,9 +87,9 @@ function Pollo() {
         </div>
       <h3>App store graphics</h3>
       <img class="img-example" src="images/pollo-appstore.png" alt="App store poster for Pollo."/>
-      <p>Download Pollo now in the <a href="https://apps.apple.com/us/app/pollo-polling-made-easy/id1355507891">
+      <p>Pollo is available for download in the  <a href="https://apps.apple.com/us/app/pollo-polling-made-easy/id1355507891">
         App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.cornellappdev.android.pollo">
-        Google Play Store </a> today!</p>
+        Google Play Store </a>.</p>
 </div>
 </main>
 
