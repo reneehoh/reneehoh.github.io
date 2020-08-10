@@ -56,13 +56,10 @@ main {
 }
 
 .gif-container {
-  justify-content: center;
 }
 
-.video-example, .gif-example {
+.gif-example {
   width: 250px;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 h1 {
@@ -112,7 +109,6 @@ h2 {
   font-weight:500;
 }
 
-
 a:hover {
   color: rgb(29, 61, 28);
 }
@@ -133,7 +129,7 @@ a:hover {
   font-weight: 110%;
   color: #4F4F4F;
   text-align: right;
-  margin-right: 7%;
+  margin-right: 10%;
   margin-top: 3%;
 }
 

@@ -8,6 +8,7 @@ import Spotify from './spotify.js';
 import CornellCreatives from './cornell-creatives.js'; 
 import UniPantry from './UniPantry.js'; 
 import Arcade from './Arcade.js'; 
+import Google from './google.js'; 
 import './App.css';
 
 function App() {
@@ -40,6 +41,7 @@ function App() {
       <Route path="/unipantry" component={UniPantry} />
       <Route path="/arcade" component={Arcade} />
       <Route path="/pollo" component={Pollo} />
+      <Route path="/google" component={Google} />
     </div>
  
   </BrowserRouter>

@@ -29,7 +29,7 @@ function Pollo() {
         On the other end of the lecture hall, students try their best to summarize
         the material in their notebooks or on their computer. 
       </p>
-      <h2>Polling made easy</h2>
+      <h3>Polling made easy</h3>
       <p>Pollo lets professors ask questions and take live polls through our mobile and web application.
         They can ask in-class questions and recieve real-time feedback to gauge which topics their students understand, and which ones they may
         need spend more time on. With Pollo:</p>
@@ -43,8 +43,8 @@ function Pollo() {
        poll creators using easy-to-read percentages and data visualization.</p>
       <h2>Making Pollo my own</h2>
       <p>I joined the Pollo team when they had the goal of launching the app by the end of the semester. It was daunting to 
-        familiarize myself with Figma files on Figma files of the Pollo designs that covered every possible interaction. I was tasked
-        with 2 main issues to tackle before the upcoming launch:</p>
+        familiarize myself with all the Figma files filled to the brim with Pollo designs. Sifting through all the 
+        interactions, I identified 2 main issues to tackle before the upcoming launch:</p>
       <ol>
         <li>Visually representing which answer is correct to the student-side user.</li>
         <li>Create an identity and marketing artifacts for Pollo's launch.</li>
@@ -54,8 +54,8 @@ function Pollo() {
         poll users should be able to see which answer is correct. The existing solution did a great job of visually representing the correct answer
         and indicating which answer the user chose. However the solution posed two issues: </p>
         <ul>
-          <li>Users could not tell if there is a correct answer, if no one chooses the correct answer. </li>
-          <li>The green and gray did not contrast heavily, posing accessibility issue for colorblind users.</li>
+        <li>The light green and gray fills did not contrast heavily, posing <strong>an accessibility issue for colorblind users.</strong></li>
+          <li>Users could not tell if there is a correct answer <strong>if no one chooses the correct answer.</strong> </li>
         </ul>
         <img class="img-example" src="images/pollo-original.png" alt="Original correct answer solution."/>
         <p>I created iterations for indicating the correct answer while actively designing for both user considerations. I 
@@ -65,9 +65,8 @@ function Pollo() {
         </p>
         <img class="img-example img-spacing" src="images/pollo-color.png" alt="Accesibility correct answer solution."/>
         <img class="img-example" src="images/pollo-noanswer.png" alt="No correct answer solution."/>
-        <p>Ultimately, I chose the solution that uses a thicker stroke and darker green color to indicate the correct poll. It does
-        not rely solely on color as a visual indicator and is not confusing when no one chooses the correct answer.
-         Therefore, it is a viable solution for both audiences.</p>
+        <p>Ultimately, I chose the solution that uses a thicker stroke and darker green color to indicate the correct poll. It <strong>does
+        not rely solely on color as a visual indicator </strong>and is not confusing when no one chooses the correct answer, making it is a viable solution for both audiences.</p>
          <p>The final interaction for instructors and students:</p>
          <img class="img-example" src="images/pollo-flow.png" alt="Correct answer work flow."/>
       <h2>2. Sprucing up Pollo for its launch</h2>

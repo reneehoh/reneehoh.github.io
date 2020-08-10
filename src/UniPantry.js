@@ -18,15 +18,16 @@ function UniPantry() {
       <div class="content article-content">
         <Article
             image="images/unipantry-thumbnail.png"
-            title="UniPantry is a tool for professors and students to interact"
+            title="UniPantry: a tool for meal prepping &amp; healthy eating"
             time="March 2020 - Present"
             team="Sharon Li, product designer"
             role="Product design, prototyping" 
             tools="Figma" />
 <p> </p>
 <p>Thanks for you interest in UniPantry! This project is protected by a NDA, so I'm unable to share the details of
-    the design process or the UI of the app on publicly until after it launches.</p>
-    <p><a href="mailto:renee.hoh@gmail.com">Contact me</a> to talk more about this project!</p>
+    the design process or the UI of the app publicly until after it launches.</p>
+    <p><a href="mailto:renee.hoh@gmail.com">Contact me</a> to talk more about this project or visit <a href="https://unipantry.net/">the 
+    UniPantry website</a>.</p>
     </div>
 </main>
 

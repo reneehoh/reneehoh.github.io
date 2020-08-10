@@ -28,6 +28,15 @@ function Projects(props) {
             Cornell AppDev's Intro to Digital Product Design course."
         />
         <Card
+            link="/pollo"
+            image="images/pollo-cover.png"
+            title="Pollo"
+            category="Product design, graphic design"
+            blurb="A clicker alternative and classroom tool to keep professors and students engaged."
+        />
+        </div>
+        <div class="row">
+        <Card
             link="/google"
             image="images/google-cover.png"
             title="Google Technical Writing Internships"
@@ -35,22 +44,14 @@ function Projects(props) {
             blurb="Writing release documentation and designing informational graphics for Android Partner Engineering (Summer 2020)
             and Firebase (Summer 2019). Contact me for more details on my internships."
         />
-        </div>
-        <div class="row">
         <Card
             link="/cornell-creatives"
             image="images/cc-cover.png"
             title="Cornell Creatives"
-            category="Product design"
+            category="UX web design, illustrations"
             blurb="Branding and designing graphics to promote Cornell Creative's mission of empowering student creators."
         />
-        <Card
-            link="/pollo"
-            image="images/pollo-cover.png"
-            title="Pollo"
-            category="Product design, graphic design"
-            blurb="A clicker alternative and classroom tool to keep professors and students engaged."
-        />
+        
         </div>
         <div class="row">
         <Card

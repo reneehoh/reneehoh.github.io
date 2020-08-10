@@ -61,6 +61,7 @@ function Spotify() {
             Surprisingly, there was little difference among competitiors' workflows -- a "New Playlist" button. This made me realize that
             this entry point makes the process of curating a playlist less <em>organic</em>.
         </p>
+        <img class="img-example" src="images/spotify-market.png" alt="Other apps' playlist flow."/>
         <h2>Brainstorming</h2>
         <p>
             With the help of 2 friends, I covered an entire wall with sticky notes, identifying specific
@@ -100,19 +101,18 @@ function Spotify() {
             <strong>a sense of familiarity for users</strong>. Additionally, this entry point <strong>allowed users to listen at the same time while not physically
             together</strong>, as required by option B.
             </p>
-        <h3>Sharing queue explorations</h3>
-            <img/>
-            <p>
-            I chose this because...
-            </p>
-        <h3>Queue playlist page explorations</h3>
-            <img/>
-            <p>
-            I chose this because...
-            </p>
+        <h2>Let's create a collaborative queue</h2>
+        <h3>Create or join a collaborative queue</h3>
+        <img class="img-example" src="images/spotify-enter-queue.png" alt="Enter queue Spotify workflow."/>
+        <h3>Add a song to the queue</h3>
+        <img class="img-example" src="images/spotify-add.png" alt="Add song Spotify workflow."/>
+        <h3>View your friends contributing ot the queue</h3>
+        <img class="img-example" src="images/spotify-contributors.png" alt="Contributors Spotify workflow."/>
+        <h3>Leave a queue session</h3>
+        <img class="img-example" src="images/spotify-leave.png" alt="Leave queue Spotify workflow."/>
         <h2>Entering the realm of visual design:</h2>
         <h3>UI Kit</h3>
-        <h2>Introducing the prototype 🎉</h2>
+        <h2>Introducing the full prototype 🎉</h2>
         <img class="img-example" src="images/spotify-prototype.png" alt="Prototype of full Spotify workflow."
         />
         <div class="gif-container">
@@ -128,7 +128,8 @@ function Spotify() {
             past semester. While challenging and frustrating at times, ultimately, I've developed a passion for
             creating delightful products that engage the user in meaningful interations.
         </p>
-        <p>Read my Medium article on this case study here.</p>
+        <p>Read my <a href="https://medium.com/@renee.hoh/spotify-concept-creating-memories-with-collaborations-558b2a3f4ca3">
+            Medium article</a> on this case study.</p>
 </div>
       </main>
 

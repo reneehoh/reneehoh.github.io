@@ -23,7 +23,20 @@ function Arcade() {
             team="Connie Liu, product designer"
             role="Product design, prototyping" 
             tools="Adobe XD, Figma" />
-            </div>
+            
+            <p>The Summer 2020 Activism Creative Jam challenged us to create a gaming platform in just 48 hours for a unique audience:
+               elderly individuals looking to find a community for video games.
+            </p>
+          <h2>Onboarding flow</h2>
+          <img class="img-example" src="images/arcade-onboarding.png" alt="Onboarding flow."/>
+          <h2>Community pages</h2>
+          <img class="img-example" src="images/arcade-community.png" alt="Community pages."/>
+          <h2>Create a game flow</h2>
+          <img class="img-example" src="images/arcade-create-game.png" alt="Create a game flow."/>
+          <div class="center">
+            <p><em>Case study coming soon!</em></p></div>
+        </div>
+        
 </main>
 
 <footer>
