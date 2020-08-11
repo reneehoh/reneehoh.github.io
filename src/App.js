@@ -30,7 +30,7 @@ function App() {
         </div>
         <div className="navigation-right">
           <Link to="/About" className="item">About</Link>
-          <a href="documents/reneehoh-resume2020.pdf" className="item">Resume</a>
+          <a href="https://drive.google.com/file/d/1DcJ_oKlt7jtyxaftS52AvPGnjjT5Y-rB/view?usp=sharing" className="item">Resume</a>
         </div>
       </div>
       <Route exact path="/" component={Projects} />
