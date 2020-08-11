@@ -25,7 +25,7 @@ function Arcade() {
             tools="Adobe XD, Figma" />
             
             <p>The Summer 2020 Activism Creative Jam challenged us to create a gaming platform in just 48 hours for a unique audience:
-               elderly individuals looking to find a community for video games.
+               elderly individuals looking to find a community through video games.
             </p>
           <h2>Onboarding flow</h2>
           <img class="img-example" src="images/arcade-onboarding.png" alt="Onboarding flow."/>

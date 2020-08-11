@@ -21,7 +21,7 @@ function Spotify() {
             title="Spotify Concept: Creating memories with collaborative queues"
             time="10 weeks"
             team="Intro to Digital Product Design course"
-            role="Product design, user research" 
+            role="Product design, user research, prototyping" 
             tools="Figma, Invision" />
         <p><em>This case study was created for Intro to DPD; I am in no way affliated with Spotify.</em></p>
         <h2>What Spotify does for its users</h2>
@@ -73,7 +73,7 @@ function Spotify() {
                 <li>Make Spotify more interactive?</li>
             </ul>
             After sketching potentional UIs for 3 different solutions, I decided on a 
-             <strong> collaborative queue</strong> feature because it focused on <strong>active interaction,</strong>
+             <strong> collaborative queue</strong> feature because it focused on <strong>active interaction, </strong>
              and had high feasibility/impact.
         </p>
         <img class="img-example" src="images/spotify-sketch.png" alt="Sketch of collaborative queue feature."/>
@@ -91,7 +91,7 @@ function Spotify() {
         The collaborative queue is intended to be more interactive and an in-the-moment activity.
         I imagine this being used for road trips, (themed) parties, etc. when music is played over a speaker. </p>
         <p>While Spotify is primarily a music streaming app, I think it’s important for users to start
-        conversations outside of the app itself, and to use music to create new collaborations or friendships.</p>
+        conversations outside of the app itself and to use music to create new collaborations or friendships.</p>
         <h2>Iterating, iterating, iterating</h2>
         <h3>Entry point explorations</h3>
         <p>The most important medium-fidelity explorations was the entry point for the collaborative queue.</p>
@@ -126,7 +126,7 @@ function Spotify() {
             queue intends to make sharing music feel more natural and organic. I can imagine my friends 
             taking turns to queue songs and listening together, creating a unique experience with each session.
         </p>
-        <p>I learned how to think like a product designer, user Figma, and prototype for the first time this
+        <p>I learned how to think like a product designer, use Figma, and prototype for the first time this
             past semester. While challenging and frustrating at times, ultimately, I've developed a passion for
             creating delightful products that engage the user in meaningful interations.
         </p>
@@ -148,3 +148,4 @@ function Spotify() {
 }
 
 export default Spotify;
+

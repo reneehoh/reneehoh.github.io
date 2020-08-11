@@ -13,7 +13,7 @@ import './App.css';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="reneehoh.github.io">
       <div className="App">
       <div class="header header-row">
           <div className="navigation-left">                             

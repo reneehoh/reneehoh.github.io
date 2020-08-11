@@ -24,11 +24,12 @@ function CornellCreatives() {
             role="Product design, graphic design, marketing materials" 
             tools="Figma, Adobe Photoshop" />
       <h2>Mission</h2>
-      <p>As design, music, writing, and coding fanatics, we came to Cornell to find other creators to
-         collaborate with and be inspired by. Cornell Creatives provides an outlet for students to
+      <p>Cornell Creatives’ mission is to create a platform and build a community of student creators.
+         We hold workshops and give creators the resources they need to pursue their passions --
+          ranging from design to programming to streaming.  Cornell Creatives provides an outlet for students to
           hone their skills and share their work with other creators. </p>
       <h2>My responsibilities</h2>
-      <p>I work within Cornell Creatives' brand team as a graphic and UX designer for their website. 
+      <p>I work within Cornell Creatives' brand team as a graphic designer and UX designer for their website. 
        I focus on conveying Cornell Creatives' approachable and bubbly energy through illustrating
        colorful flat illustrations, using a friendly voice when writing, and designing a playfully
        interactive website.

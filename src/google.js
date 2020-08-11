@@ -26,11 +26,11 @@ function Google() {
             role="Technical writer intern" 
             tools="HTML/CSS, Markdown, Google internal tools, Figma" />
 <p> </p>
-<p>The specific writing and design process behind my internships is private. However, feel free to read
-    my writing for <Link to="/Writing">public documentation</Link>.
+<p>The writing and design process for my internship deliverables are protected. However, feel free to read
+    my writing for Firebase and APE <Link to="/Writing">public documentation</Link>.
 </p>
-<p>For Google interns or employees, visit /rhoh to view my intern presentations.</p>
-    <p><a href="mailto:renee.hoh@gmail.com">Otherwise, contact me</a> to talk more about my internships!</p>
+<p>For Google interns or employees, visit /rhoh-preso-2020 to view my summer 2020 intern presentations.</p>
+    <p>Otherwise,<a href="mailto:renee.hoh@gmail.com"> contact me</a> to talk more about my internships!</p>
     </div>
 </main>
 
