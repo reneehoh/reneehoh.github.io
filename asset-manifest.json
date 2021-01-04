@@ -1,22 +1,23 @@
 {
   "files": {
-    "main.css": "/reneehoh.github.io/static/css/main.621d010f.chunk.css",
-    "main.js": "/reneehoh.github.io/static/js/main.44d48d6a.chunk.js",
-    "main.js.map": "/reneehoh.github.io/static/js/main.44d48d6a.chunk.js.map",
+    "main.css": "/reneehoh.github.io/static/css/main.f14c8609.chunk.css",
+    "main.js": "/reneehoh.github.io/static/js/main.940f911b.chunk.js",
+    "main.js.map": "/reneehoh.github.io/static/js/main.940f911b.chunk.js.map",
     "runtime-main.js": "/reneehoh.github.io/static/js/runtime-main.1c473217.js",
     "runtime-main.js.map": "/reneehoh.github.io/static/js/runtime-main.1c473217.js.map",
     "static/js/2.9aa0743c.chunk.js": "/reneehoh.github.io/static/js/2.9aa0743c.chunk.js",
     "static/js/2.9aa0743c.chunk.js.map": "/reneehoh.github.io/static/js/2.9aa0743c.chunk.js.map",
     "index.html": "/reneehoh.github.io/index.html",
-    "precache-manifest.c9684a46296d823eec069ca21e552718.js": "/reneehoh.github.io/precache-manifest.c9684a46296d823eec069ca21e552718.js",
+    "precache-manifest.fc4dc050385927e874ace6e8555ff7f4.js": "/reneehoh.github.io/precache-manifest.fc4dc050385927e874ace6e8555ff7f4.js",
     "service-worker.js": "/reneehoh.github.io/service-worker.js",
-    "static/css/main.621d010f.chunk.css.map": "/reneehoh.github.io/static/css/main.621d010f.chunk.css.map",
-    "static/js/2.9aa0743c.chunk.js.LICENSE.txt": "/reneehoh.github.io/static/js/2.9aa0743c.chunk.js.LICENSE.txt"
+    "static/css/main.f14c8609.chunk.css.map": "/reneehoh.github.io/static/css/main.f14c8609.chunk.css.map",
+    "static/js/2.9aa0743c.chunk.js.LICENSE.txt": "/reneehoh.github.io/static/js/2.9aa0743c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "/reneehoh.github.io/static/media/squiggles-motion.74aa857e.gif"
   },
   "entrypoints": [
     "static/js/runtime-main.1c473217.js",
     "static/js/2.9aa0743c.chunk.js",
-    "static/css/main.621d010f.chunk.css",
-    "static/js/main.44d48d6a.chunk.js"
+    "static/css/main.f14c8609.chunk.css",
+    "static/js/main.940f911b.chunk.js"
   ]
 }
