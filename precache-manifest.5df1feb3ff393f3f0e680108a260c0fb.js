@@ -1,11 +1,11 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "be5adf79f8e19388aa600e0be866eebb",
+    "revision": "2ac117488aa81a9f195847a7067a1f55",
     "url": "/reneehoh.github.io/index.html"
   },
   {
-    "revision": "528019dd29340a17e810",
-    "url": "/reneehoh.github.io/static/css/main.a17bcf66.chunk.css"
+    "revision": "f1529cb313913bcd3586",
+    "url": "/reneehoh.github.io/static/css/main.af913925.chunk.css"
   },
   {
     "revision": "ea320b14dd043c6953f2",
@@ -16,7 +16,7 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/reneehoh.github.io/static/js/2.9aa0743c.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "528019dd29340a17e810",
+    "revision": "f1529cb313913bcd3586",
     "url": "/reneehoh.github.io/static/js/main.753fb7f8.chunk.js"
   },
   {
