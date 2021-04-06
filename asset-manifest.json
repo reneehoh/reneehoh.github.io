@@ -1,23 +1,23 @@
 {
   "files": {
-    "main.css": "/reneehoh.github.io/static/css/main.f317d65e.chunk.css",
-    "main.js": "/reneehoh.github.io/static/js/main.03b85a55.chunk.js",
-    "main.js.map": "/reneehoh.github.io/static/js/main.03b85a55.chunk.js.map",
-    "runtime-main.js": "/reneehoh.github.io/static/js/runtime-main.1c473217.js",
-    "runtime-main.js.map": "/reneehoh.github.io/static/js/runtime-main.1c473217.js.map",
-    "static/js/2.9aa0743c.chunk.js": "/reneehoh.github.io/static/js/2.9aa0743c.chunk.js",
-    "static/js/2.9aa0743c.chunk.js.map": "/reneehoh.github.io/static/js/2.9aa0743c.chunk.js.map",
-    "index.html": "/reneehoh.github.io/index.html",
-    "precache-manifest.5b1cb05fc6049bfe90243c040dce9422.js": "/reneehoh.github.io/precache-manifest.5b1cb05fc6049bfe90243c040dce9422.js",
-    "service-worker.js": "/reneehoh.github.io/service-worker.js",
-    "static/css/main.f317d65e.chunk.css.map": "/reneehoh.github.io/static/css/main.f317d65e.chunk.css.map",
-    "static/js/2.9aa0743c.chunk.js.LICENSE.txt": "/reneehoh.github.io/static/js/2.9aa0743c.chunk.js.LICENSE.txt",
-    "static/media/App.css": "/reneehoh.github.io/static/media/squiggles-motion.74aa857e.gif"
+    "main.css": "./static/css/main.4300457e.chunk.css",
+    "main.js": "./static/js/main.bf066a42.chunk.js",
+    "main.js.map": "./static/js/main.bf066a42.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.916853f0.js",
+    "runtime-main.js.map": "./static/js/runtime-main.916853f0.js.map",
+    "static/js/2.9aa0743c.chunk.js": "./static/js/2.9aa0743c.chunk.js",
+    "static/js/2.9aa0743c.chunk.js.map": "./static/js/2.9aa0743c.chunk.js.map",
+    "index.html": "./index.html",
+    "precache-manifest.aa226084ceead4240a637ef760f625f8.js": "./precache-manifest.aa226084ceead4240a637ef760f625f8.js",
+    "service-worker.js": "./service-worker.js",
+    "static/css/main.4300457e.chunk.css.map": "./static/css/main.4300457e.chunk.css.map",
+    "static/js/2.9aa0743c.chunk.js.LICENSE.txt": "./static/js/2.9aa0743c.chunk.js.LICENSE.txt",
+    "static/media/App.css": "./static/media/squiggles-motion.74aa857e.gif"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c473217.js",
+    "static/js/runtime-main.916853f0.js",
     "static/js/2.9aa0743c.chunk.js",
-    "static/css/main.f317d65e.chunk.css",
-    "static/js/main.03b85a55.chunk.js"
+    "static/css/main.4300457e.chunk.css",
+    "static/js/main.bf066a42.chunk.js"
   ]
 }
