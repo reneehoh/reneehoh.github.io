@@ -1,0 +1,181 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  /* font-family: 'Space Mono', monospace */
+  /* font-family: 'DM Mono', monospace; */
+  font-family: 'Cormorant Garamond', serif;
+
+}
+
+.navbar {
+padding: 0;
+font-family: 'DM Mono', monospace;
+font-style: italic;
+z-index:1;
+
+}
+
+.my-name {
+  font-size: 250%;
+  font-style: italic;
+  font-weight: bolder;
+  font-family: 'DM Mono', monospace;
+}
+
+.nav-col {
+  text-align: right;
+}
+
+
+.nav-link {
+  font-size: 80%;
+  padding:0px;
+  margin:0px;
+  text-align: right;
+}
+
+
+.front-img {
+  width: 50%;
+  height: auto;
+}
+
+.home-title {
+  font-style: italic;
+  font-size: 80%;
+  font-family: 'DM Mono', monospace;
+}
+
+.tidbit {
+  width:250px;
+}
+
+.move {
+  margin-left: 20px;
+}
+
+a {
+  color: black;
+  font-family: 'DM Mono', monospace;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.material-icons {
+  font-size: var(--bs-body-font-size);
+}
+
+.row-span {
+  display:flex;
+  flex-direction: row;
+}
+
+footer {
+  font-family: 'DM Mono', monospace;
+
+}
+
+.header {
+  color: black;
+  font-family: 'DM Mono', monospace;
+  font-weight: bold;
+}
+
+/* home formating */
+#coyote {
+  position: absolute;
+  right: 0px;
+  top:0px;
+  padding:0px;
+  width: 20%;
+  z-index:0;
+}
+
+#snee {
+  position: absolute;
+  top: 0px;
+  right: 5%;
+  padding:0px;
+  height: 80%;
+}
+
+#snee2 {
+  position: absolute;
+  top: 0px;
+  left: 5%;
+  padding:0px;
+  /* height: 120%; */
+  height: 100vh; 
+  width:100vw;
+  object-fit:cover;
+  object-position: 50% 0%; /* try 20px 10px */ 
+  z-index: -5;
+  display:none;
+}
+
+#snee3 {
+  position: absolute;
+  top: 0px;
+  left: 5%;
+  padding:0px;
+  /* height: 120%; */
+  height: 100vh; 
+  width:95vw;
+  object-fit:cover;
+  object-position: 70% 0%; /* try 20px 10px */ 
+  z-index: -5;
+}
+
+.tidbits {
+  width: 80%;
+  margin-left:0px;
+  margin-top:4%;
+}
+
+
+
+/* info formating */
+#me {
+  position: absolute;
+  left: 0px;
+  padding:0px;
+}
+
+.about-blurb {
+  /* position: absolute;
+  top: 30%;
+  right: 5%;*/
+  width: 80%; 
+  font-family: 'DM Mono', monospace;
+  font-family: 'Cormorant Garamond', serif;
+
+  /* font-size: 80%; */
+}
+
+#santa-cruz {
+  position: absolute;
+  top: 0px;
+  right: 10%;
+  padding:0px;
+  z-index: -5;
+  width:50%;
+  height: 100vh; 
+  object-fit:cover;
+  object-position: .5vh 0px;
+
+}
+
+/* writing */
+h2 {
+  font-family: 'DM Mono', monospace;
+}
+
+.writing-details {
+  font-family: 'DM Mono', monospace;
+  font-size: 50%;
+}
+
