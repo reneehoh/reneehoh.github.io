@@ -206,3 +206,13 @@ margin:auto;
   border: solid 1px white;
 }
 
+#latest-work {
+  /* margin-top: 90%;; */
+  position: absolute;
+  bottom: 25%;
+}
+
+.empty-container {
+  height:50vh;
+}
+

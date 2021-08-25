@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Renée Hoh</title>
+
+
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
+  <link rel="stylesheet" href="style/theme.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Space+Mono:ital@1&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono:ital@0;1&family=Space+Mono:ital@1&display=swap"
+    rel="stylesheet">
+  <link
+    href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Mono:ital@0;1&family=Space+Mono:ital@1&display=swap"
+    rel="stylesheet">
+
+
+
+</head>
+
+<body>
+  <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+  <!-- Include all compiled plugins (below), or include individual files as needed -->
+  <script src="js/bootstrap.min.js"></script>
+  <section id="nav-bar">
+    <!-- NAVBAR START -->
+    <nav class="navbar navbar-expand-lg navbar-light  container">
+      <!--bg-light-->
+      <div class="container-fluid">
+        <a class="navbar-brand my-name" href="index.html">RENÉE HOH</a>
+
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <div class="col nav-col">
+              <a class="nav-link" href="writing.html">WRITER </a>
+              <a class="nav-link" href="design.html">DESIGNER </a>
+              <a class="nav-link" href="info.html">INFO</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- NAVBAR END -->
+  </section>
+
+  <section class="writing">
+    <div class="container">
+      <h2>What does Pollo bring to the (classroom) table?</h2>
+      <h3>The problem at hand</h3>
+      <p>Nowadays, some professors face the challenge of gauging how well the
+        hundreds of students in the lecture hall understand the material.
+        On the other end of the lecture hall, students try their best to summarize
+        the content in their notebooks or on their computer.
+      </p>
+      <h3>Polling made easy</h3>
+      <p>Pollo lets professors ask questions and take live polls through our mobile and web application.
+        They can ask in-class questions and recieve real-time feedback to gauge which topics their students understand,
+        and which ones they may
+        need spend more time on. With Pollo:</p>
+      <p><strong>Send live polls.</strong> Want to know how prepared students feel for the exam or test their
+        comprehension
+        of the lecture? Quickly create a live poll and send it out during class.</p>
+      <p><strong>Create drafts.</strong> Plan ahead for your lecture by pre-filling the polls
+        you intend on using during class.</p>
+      <p><strong>Organize your groups</strong>. Your polls are labelled with the date they were sent out and
+        organized into custom groups. Use this to see trends in the poll outcomes.</p>
+      <p><strong>Receive live feedback.</strong> As users choose their answers, Pollo shows the results to
+        poll creators using easy-to-read percentages and data visualization.</p>
+      <h3>Pollo in the remote learning era</h3>
+      <p>Since my university transitioned to mostly online classes for Fall 2020, I teamed up with the product
+        marketing member of the Pollo team to evaluate professor's adjusted teaching styles. Through a Google Form
+        sent to professors across majors and class sizes, we discovered two personas:
+      </p>
+      <div class="row">
+        <img class="img-half" src="images/pollo-curious-persona.png" alt="The curious persona for Pollo." />
+        <img class="img-half" src="images/pollo-hesitant-persona.png" alt="The hesitant persona for Pollo." />
+      </div>
+      <h2>Making Pollo my own</h2>
+      <p>I joined the Pollo team when they had the goal of launching the app by the end of the semester. It was daunting
+        to
+        familiarize myself with all the Figma files filled to the brim with Pollo designs. Sifting through the
+        interactions, I identified 2 main issues to tackle before the upcoming launch:</p>
+      <ol>
+        <li>Visually representing which answer is correct to the student-side user.</li>
+        <li>Create an identity and marketing artifacts for Pollo's launch.</li>
+      </ol>
+      <h2>1. How do I know which answer is correct?</h2>
+      <p>In Pollo, poll creators can choose to assign an answer to be correct or not. If they do, after the share the
+        results of the polls,
+        poll users should be able to see which answer is correct. The existing solution did a great job of visually
+        representing the correct answer
+        and indicating which answer the user chose. However the solution posed two issues: </p>
+      <ul>
+        <li>The light green and gray fills did not contrast heavily, posing <strong>an accessibility issue for
+            colorblind
+            users.</strong></li>
+        <li>Users could not tell if there is a correct answer <strong>if no one chooses the correct answer.</strong>
+        </li>
+      </ul>
+      <img class="img-fluid" src="images/pollo-original.png" alt="Original correct answer solution." />
+      <p>I created iterations for indicating the correct answer while actively designing for both user considerations. I
+        specifically avoided solutions that required the use of red to indicate incorrect answers. When used in
+        classroom settings, red can carry a negative connotation that represents failure or defeat. I did not want to
+        negatively impact the learning experience, so I focused more heavily on portraying the correct answer instead.
+      </p>
+      <img class="img-fluid img-spacing" src="images/pollo-color.png" alt="Accesibility correct answer solution." />
+      <img class="img-fluid" src="images/pollo-noanswer.png" alt="No correct answer solution." />
+      <p>Ultimately, I chose the solution that uses a thicker stroke and darker green color to indicate the correct
+        poll.
+        It <strong>does
+          not rely solely on color as a visual indicator </strong>and is not confusing when no one chooses the correct
+        answer, making it is a viable solution for both audiences.</p>
+      <p>The final interaction for instructors and students:</p>
+      <img class="img-fluid" src="images/pollo-flow.png" alt="Correct answer work flow." />
+      <h2>2. Sprucing up Pollo for its launch</h2>
+      <h3>Learning Pollo's identity </h3>
+      <p>Pollo exists to facilitate interactions and back-and-forths between professors and students.
+        I used small stars and sun rays to convey the experience of many students in a classroom inputting
+        their answers simultaneously. I used a subtle gradient for the background to convey
+        the dynamic nature of how the polls react to real-time results. The transparent components,
+        such as the Pollo logo, checkmarks, question marks, and percentage signs, represent the data visualizations that
+        formulate as the users answer the polls.</p>
+      <p>I wanted to highlight Pollo's unique features so I designed a custom poll that asks "What is Pollo?", in which
+        all answers are correct.
+      </p>
+      <h3>Social media posters</h3>
+      <div class="row">
+        <img id="pollo-insta" src="images/pollo-insta.png" alt="Instagram poster for Pollo." />
+        <img id="pollo-fb" src="images/pollo-fb.png" alt="Facebook poster for Pollo." />
+      </div>
+      <h3>App store graphics</h3>
+      <img class="img-fluid" src="images/pollo-appstore.png" alt="App store poster for Pollo." />
+      <p>Pollo is available for download in the <a
+          href="https://apps.apple.com/us/app/pollo-polling-made-easy/id1355507891">
+          App Store</a> or <a href="https://play.google.com/store/apps/details?id=com.cornellappdev.android.pollo">
+          Google Play Store</a>.</p>
+    </div>
+    </div>
+
+
+
+  </section>
+
+
+
+</body>
+
+
+</html>
