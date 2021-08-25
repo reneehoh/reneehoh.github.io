@@ -31,7 +31,7 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
   <section id="nav-bar">
-    <!-- NAVBAR -->
+    <!-- NAVBAR START -->
     <nav class="navbar navbar-expand-lg navbar-light  container">
       <!--bg-light-->
       <div class="container-fluid">
@@ -43,93 +43,150 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" aria-current="page" href="design.html">DESIGN</a>
-            <a class="nav-link" href="writing.html">WRITING </a>
-            <a class="nav-link" href="info.html">INFO</a>
+            <div class="col nav-col">
+              <a class="nav-link" href="writing.html">WRITER </a>
+              <a class="nav-link" href="design.html">DESIGNER </a>
+              <a class="nav-link" href="info.html">INFO</a>
+            </div>
           </div>
         </div>
       </div>
     </nav>
+    <!-- NAVBAR END -->
   </section>
 
-  <section id="writing">
+  <section class="writing">
     <div class="container">
       <div class="header row-span">
         <span class="material-icons">fingerprint</span>
         <p>ABOUT</p>
       </div>
-      <p>For summer 2021, I interned with the Ads team, based in New York City. The
-        exact details of my project are under NDA. For anyone at Google, feel free to check out my work as rhoh@.
+      <p>For summer 2021, I interned with the Ads team, based in New York City.
       </p>
-      <p>My summer project had 2 overarching themes: product launches, in-product education, and UX writing
+      <p>I was the technical writer for the Reporting feature of the Ads enterprise management systems, Campaign Manager
+        360 and Display & Video 360.
       </p>
-
-      <p>I was the writer for the Reporting feature of the Ads management systems, Campaign Manager and Display & Video
-        360. Both platforms are for enterprise companies. Due to the nature of the product, I am unable to include most
-        of my internship artifacts.
-      </p>
-
-      <p>Other deliverables include:</p>
+      <p>My summer project had 3 overarching themes:</p>
       <ul>
-        <li>Final Intern Presentation</li>
-        <li>4 UX writing projects for new features</li>
-        <li>Qualitative review of an article impacting multiple Ads products</li>
-        <li>In-UI tooltip descriptions and tracker</li>
-        <li>Doc plans & drafts</li>
-        <li>Knowledge of Google's internal Help Center tools</li>
-
+        <li>UX writing for new features</li>
+        <li>Advocating for in-product education</li>
+        <li>Documenting product launches</li>
       </ul>
 
-
-
-      <div class="header row-span">
-        <span class="material-icons">fingerprint</span>
-        <p>TARGET AUDIENCE</p>
-      </div>
-
-      <p>The target audience is developers who want to use a custom domain for their Firebase-hosted web application.
-        Connecting a custom domain is a one-time process and developers are not expected to be knowledgable about web
-        hosting. This documentation was originally published in 2019 at
-        https://firebase.google.com/docs/hosting/custom-domain, although it has since been updated.</p>
-
-      <p>The target audience is developers who use the Firebase console and want to integrate in-app messaging into
-        their applications. Users are expected to have an existing Firebase app, but they don't need prior experience
-        with implementing messaging. In 2019, this documentation was published at
-        https://firebase.google.com/docs/in-app-messaging/compose-campaign.</p>
-
-
-
-      <div class="header row-span">
-        <span class="material-icons">fingerprint</span>
-        <p>PUBLISHED WORDS</p>
-      </div>
-      <p>The following docs were originally published in summer 2019, although there may have been changes since.</p>
-      <ul>
-        <li>
-          <div class="row-span">
-            3P App Attribution (Launching soon)
-          </div>
-        </li>
-        <li>
-          <div class="row-span">
-            <a href="#">
-              Reporting quotas</a><span class="material-icons">moving</span>
-          </div>
-        </li>
-        <li>
-          <div class="row-span">
-            <a href="#">
-              Slow mode in instant reporting</a><span class="material-icons">moving</span>
-          </div>
-        </li>
-      </ul>
-
-      <div class="header row-span">
-        <span class="material-icons">fingerprint</span>
-        <p>LEARNINGS</p>
-      </div>
-      <p>My main takeaways include...
+      <p>Due to the nature of the product, the project details and internal deliverables are under NDA. For anyone at
+        Google, feel free to check out my work as rhoh@.
       </p>
+
+
+      <div class="header row-span">
+        <span class="material-icons">fingerprint</span>
+        <p>THE PROBLEM</p>
+      </div>
+
+      <p>With the current user interface, users of Campaign Manager and Display & Video 360 have to understand a large
+        amount of complicated, ads-related jargon. As a result, users were filing tickets because they couldn't onboard
+        as quickly as they would like.
+        This is due to several reasons:
+      </p>
+      <ol>
+        <li>Lack of context within the product</li>
+        <li>Inconsistent use of terminology or concepts across products</li>
+        <li>Outdated or unclear documentation</li>
+      </ol>
+
+      <div class="header row-span">
+        <span class="material-icons">fingerprint</span>
+        <p>THE SOLUTION</p>
+      </div>
+      <p>
+        <p><b>UX writing for new features</b></p>
+        <p>I wrote the in-UI and email content for a new feature related to bulk action in Campaign Manager 360. I
+          collaborated with the teams' software engineers, interaction designers, and product technology manager to
+          decide on the product direction of the feature.</p>
+
+        <p>Deliverables included naming the feature, drafts of email
+          content and in-UI text. The purpose of this was to communicate to the user the status of their bulk action in
+          order to provide consistent feedback. Challenges included maintaining consistency between the UI, emails, and
+          any downloaded content.</p>
+
+        <p>I also drafted the UX writing for an onboarding flow to a new feature in Google Ads. The process included
+          researching onboarding flow patterns, studying existing flows, and getting feedback from stakeholders in the
+          project.</p>
+
+        <p><b>Advocating for in-product education</b></p>
+        <p>To advocate for in-product education and long-term documentation changes, I developed a qualitative review
+          for <a href="https://support.google.com/google-ads/answer/10081327?hl=en" class="inline-a">an existing article
+            on modeled
+            conversions.</a> This article in particular is important because it addresses
+          user privacy and data. This topic is inconsistently used and referenced across
+          multiple Ads
+          products, negatively impacting a large number of users. I presented my findings to product stakeholders to
+          publish the changes, which consolidated the information cross-product and clarified the Google's approach to
+          conversion modeling.</p>
+
+        <p>I also worked hands-on project for the reporting feature. Users could choose metrics and dimensions in order
+          to generate reports and understand the effectiveness of their ads. However, many of the metric and dimension
+          names were unfamiliar to users, resulting in them filing tickets. I worked on drafting 50+ descriptions for
+          in-UI tooltips. As a result, users can simply hover over a metric and dimensions to quickly see the
+          definition.</p>
+
+        <p><b>Documenting product launches</b></p>
+        <p>For reporting, I supported 3 larger product launches, 3P App Attribution, reporting quotas, and data
+          downloads in instant reporting.</p>
+        <p>I communicated regularly with software engineers, interaction designers, and product technology managers to
+          gain understanding of the feature. My primary goal was to identify the key information to include without
+          overwhelming the user with information.</p>
+
+
+        <div class="header row-span">
+          <span class="material-icons">fingerprint</span>
+          <p>PUBLISHED WORDS</p>
+        </div>
+        <p>The following docs were originally published in summer 2021, although there may have been changes since.</p>
+        <ul>
+          <li>
+            <div class="row-span">
+              3P App Attribution (Launching soon)
+            </div>
+          </li>
+          <li>
+            <div class="row-span">
+              <a href="#">
+                Reporting quotas</a><span class="material-icons">moving</span>
+            </div>
+          </li>
+          <li>
+            <div class="row-span">
+              <a href="#">
+                Instant reporting (data download) </a><span class="material-icons">moving</span>
+            </div>
+          </li>
+        </ul>
+        <p>Other deliverables include:</p>
+        <ul>
+          <li>Final Intern Presentation</li>
+          <li>4 UX writing projects for new features</li>
+          <li>Qualitative review of an article impacting multiple Ads products</li>
+          <li>In-UI tooltip descriptions and tracker</li>
+          <li>Doc plans & drafts</li>
+          <li>Knowledge of Google's internal Help Center tools</li>
+        </ul>
+
+        <div class="header row-span">
+          <span class="material-icons">fingerprint</span>
+          <p>LEARNINGS</p>
+        </div>
+        <p>Technical writing is, at it's core, education. We are teaching users about our products, beyond just how to
+          use
+          them. In order to accomplish this goal, I learned that more content isn't always the answer. Sometimes
+          removing
+          information or being intentional
+          about the placement of content can make the main idea more clear. Placing clear, instructional writing within
+          the user interface itself is an effective and accessible way to provide valuable context.
+        </p>
+        <p>Finally, the time spent researching patterns and speaking to subject matter experts may not yield tangible
+          deliverables, but it's one of the most crucial steps in the technical writing process. I now recognize the
+          importance of this work and learned to communciate the impact of this work to stakeholders.</p>
     </div>
 
   </section>

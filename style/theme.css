@@ -83,6 +83,7 @@ footer {
   color: black;
   font-family: 'DM Mono', monospace;
   font-weight: bold;
+  padding-top:3%;
 }
 
 /* home formating */
@@ -177,5 +178,31 @@ h2 {
 .writing-details {
   font-family: 'DM Mono', monospace;
   font-size: 50%;
+}
+
+.writing {
+width: 70%;
+margin:auto;
+}
+
+.writing-entry {
+  font-family: 'Cormorant Garamond', serif;
+  font-size: 80%;
+}
+
+.inline-a {
+  font-family: 'Cormorant Garamond', serif;
+  font-weight: 400;
+  color: navy;
+  text-decoration: underline;
+}
+
+.featured-img {
+  border-radius: 5%;
+  width: 50%;
+}
+
+.featured-img:hover {
+  border: solid 1px white;
 }
 
