@@ -120,11 +120,11 @@ footer {
 
 #snee3 {
   position: absolute;
-  top: 0px;
+  top: 6%;
   left: 5%;
   padding:0px;
   /* height: 120%; */
-  height: 100vh; 
+  height: 95vh; 
   width:95vw;
   object-fit:cover;
   object-position: 70% 0%; /* try 20px 10px */ 
@@ -141,7 +141,7 @@ footer {
 
 /* info formating */
 #me {
-  position: absolute;
+  position: relative;
   left: 0px;
   padding:0px;
 }
@@ -150,10 +150,11 @@ footer {
   /* position: absolute;
   top: 30%;
   right: 5%;*/
-  width: 80%; 
+  /* width: 80%;  */
   font-family: 'DM Mono', monospace;
   font-family: 'Cormorant Garamond', serif;
-
+  width: 90%;
+  margin: auto;
   /* font-size: 80%; */
 }
 
@@ -181,7 +182,7 @@ h2 {
 }
 
 .writing {
-width: 70%;
+width: 60%;
 margin:auto;
 }
 
@@ -209,10 +210,55 @@ margin:auto;
 #latest-work {
   /* margin-top: 90%;; */
   position: absolute;
-  bottom: 25%;
+  bottom: 18%;
 }
 
 .empty-container {
-  height:50vh;
+  height:55vh;
 }
 
+.gr_grid_container {
+  /* customize grid container div here. eg: width: 500px; */
+  width: 500px;
+}
+
+.gr_grid_book_container {
+  /* customize book cover container div here */
+  float: left;
+  width: 39px;
+  height: 60px;
+  padding: 0px 0px;
+  overflow: hidden;
+}
+
+.row-space {
+  margin-right: 20px;
+}
+
+.toggle-btn{
+  color: black;
+  background-color: white;
+  border-radius: 0px;
+  border: none;
+text-decoration: none;
+/* padding-bottom: 0px; */
+}
+
+.toggle-btn:hover {
+  color: black;
+}
+
+.article-a {
+  margin-bottom: 15px;
+  font-weight: 400;
+  letter-spacing: -1px;
+
+}
+
+.see-more p {
+  margin-right: 20px;
+}
+
+/* a:hover {
+  background-color: seagreen;
+} */

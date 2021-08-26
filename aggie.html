@@ -6,7 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <title>Renée Hoh</title>
 
-
+  <link rel="icon" href="fingerprint.ico" type="image/x-icon" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"></script>
   <link rel="stylesheet" href="style/theme.css">
@@ -20,9 +20,6 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,300;1,400;1,500;1,600;1,700&family=DM+Mono:ital@0;1&family=Space+Mono:ital@1&display=swap"
     rel="stylesheet">
-
-
-
 </head>
 
 <body>
@@ -31,7 +28,7 @@
   <!-- Include all compiled plugins (below), or include individual files as needed -->
   <script src="js/bootstrap.min.js"></script>
   <section id="nav-bar">
-    <!-- NAVBAR -->
+    <!-- NAVBAR START -->
     <nav class="navbar navbar-expand-lg navbar-light  container">
       <!--bg-light-->
       <div class="container-fluid">
@@ -43,13 +40,16 @@
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav ms-auto">
-            <a class="nav-link" aria-current="page" href="design.html">DESIGN</a>
-            <a class="nav-link" href="writing.html">WRITING </a>
-            <a class="nav-link" href="info.html">INFO</a>
+            <div class="col nav-col">
+              <a class="nav-link" href="writing.html">WRITER </a>
+              <a class="nav-link" href="design.html">DESIGNER </a>
+              <a class="nav-link" href="info.html">INFO</a>
+            </div>
           </div>
         </div>
       </div>
     </nav>
+    <!-- NAVBAR END -->
   </section>
 
   <section class="writing">
@@ -58,75 +58,203 @@
         <span class="material-icons">fingerprint</span>
         <p>ABOUT</p>
       </div>
-      <p>For summer 2019, I interned with Firebase's developer relations team in Google's San Francisco office. The
-        exact details of my project are under NDA. For anyone at Google, feel free to check out my work as rhoh@.
+      <p>I was a city news reporter for UC Davis' student newspaper, <em>The California Aggie</em>. I wrote weekly
+        articles on breaking news topics and features on city life.
       </p>
-      <div class="header row-span">
-        <span class="material-icons">fingerprint</span>
-        <p>TARGET AUDIENCE</p>
-      </div>
-
-      <p>The target audience is developers who want to use a custom domain for their Firebase-hosted web application.
-        Connecting a custom domain is a one-time process and developers are not expected to be knowledgable about web
-        hosting. This documentation was originally published in 2019 at
-        https://firebase.google.com/docs/hosting/custom-domain, although it has since been updated.</p>
-
-      <p>The target audience is developers who use the Firebase console and want to integrate in-app messaging into
-        their applications. Users are expected to have an existing Firebase app, but they don't need prior experience
-        with implementing messaging. In 2019, this documentation was published at
-        https://firebase.google.com/docs/in-app-messaging/compose-campaign.</p>
-
-
 
       <div class="header row-span">
         <span class="material-icons">fingerprint</span>
         <p>PUBLISHED WORDS</p>
       </div>
-      <p>The following docs were originally published in summer 2019, although there may have been changes since.</p>
+      <p>My picks:</p>
       <ul>
         <li>
           <div class="row-span">
-            <a
-              href="https://cornellsun.com/2019/10/16/from-student-to-teacher-alumni-professors-reflect-on-their-time-at-cornell/">
-              From Student to Teacher: Alumni Professors Reflect on Their Time at Cornell</a><span
+            <a href="https://theaggie.org/2019/01/31/uc-davis-prepares-for-uc-wide-payroll-system-despite-issues-at-other-uc-campuses/"
+              class="article-a">
+              UC Davis prepares for UC-wide payroll system despite issues at other UC campuses</a><span
               class="material-icons">moving</span>
+          </div>
+          <p>Story of the Week, <em>The California Aggie</em></p>
+
+        </li>
+        <li>
+          <div class="row-span">
+            <a href="https://theaggie.org/2019/06/03/the-davis-needle-downtowns-monumental-mark/" class="article-a">
+              The Davis Needle: downtown’s monumental mark</a><span class="material-icons">moving</span>
           </div>
         </li>
         <li>
           <div class="row-span">
-            <a
-              href="https://cornellsun.com/2019/11/10/cornell-sophomore-min-shin-22-shines-as-member-of-korean-national-womens-ice-hockey-team/?">
-              Cornell Sophomore Min Shin ’22 Shines as Member of Korean National Women’s Ice Hockey Team</a><span
-              class="material-icons">moving</span>
-          </div>
-        </li>
-        <li>
-          <div class="row-span">
-            <a
-              href="https://cornellsun.com/2019/11/12/confused-about-your-degree-requirements-a-new-app-is-here-to-help-you/">
-              Confused About Your Degree Requirements? A New App Is Here to Help You.</a><span
-              class="material-icons">moving</span>
+            <a href="https://theaggie.org/2019/01/25/increase-in-electric-vehicle-charger-installations-in-davis/"
+              class="article-a">
+              Increase in electric vehicle charger installations in Davis</a><span class="material-icons">moving</span>
           </div>
         </li>
       </ul>
 
-      <p>Other deliverables include:</p>
-      <ul>
-        <li>Final Intern Presentation</li>
-        <li>Doc Plans</li>
-        <li>Drafts</li>
-      </ul>
-
-
-
-
-      <div class="header row-span">
-        <span class="material-icons">fingerprint</span>
-        <p>LEARNINGS</p>
-      </div>
-      <p>My main takeaways include...
+      <p>
+        <a class="btn btn-primary inline-a toggle-btn " data-bs-toggle="collapse" href="#collapseExample" role="button"
+          aria-expanded="false" aria-controls="collapseExample">
+          SEE MORE ARTICLES ↓
+        </a>
+        <!-- <button class="btn btn-primary" type="button" data-bs-toggle="collapse" data-bs-target="#collapseExample"
+          aria-expanded="false" aria-controls="collapseExample">
+          Button with data-bs-target
+        </button> -->
       </p>
-    </div>
+      <div class="collapse" id="collapseExample">
+        <div class="card card-body">
+          <ul>
+
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2018/11/09/local-band-uses-concert-to-raise-awareness-for-kids-in-need-of-defense/"
+                  class="article-a">
+                  Local band uses concert to raise awareness for Kids in Need of Defense</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2018/11/08/day-of-the-dead-celebration-honors-loved-ones-creates-community/"
+                  class="article-a">
+                  Day of the Dead celebration honors loved ones, creates community</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2018/11/30/davis-fire-relief-benefit-to-aid-california-fire-victims/"
+                  class="article-a">
+                  Davis fire relief benefit to aid California fire victims</a><span class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2018/11/27/farm-davis-fundraises-to-support-sustainable-farming/"
+                  class="article-a">
+                  FARM Davis fundraises to support sustainable farming</a><span class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2018/11/20/holiday-craft-fair-features-local-artists-holiday-wares/"
+                  class="article-a">
+                  Holiday Craft Fair features local artists, holiday wares</a><span class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2018/12/07/rain-or-shine-37th-annual-candlelight-parade-marches-through-downtown/"
+                  class="article-a">
+                  Rain or shine, 37th annual Candlelight Parade marches through downtown</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/01/13/school-board-explores-other-ways-to-honor-dolcini-no-name-change-for-elementary-school/"
+                  class="article-a">
+                  School board explores other ways to honor Dolcini, no name change for elementary school</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/01/21/breaking-the-ice-winter-brings-three-newly-elected-davis-school-board-members/"
+                  class="article-a">
+                  Breaking the ice: winter brings three newly-elected Davis school board members</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/02/15/run-for-224-37th-davis-stampede-event-to-honor-officer-natalie-corona/"
+                  class="article-a">
+                  Run for 224: 37th Davis Stampede event to honor Officer Natalie Corona</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/02/11/after-delays-construction-on-third-street-is-finally-wrapping-up/"
+                  class="article-a">
+                  After delays, construction on Third Street is finally wrapping up</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/03/04/newcomer-i-tea-to-open-at-location-of-closed-textbook-store/"
+                  class="article-a">
+                  Newcomer i-Tea to open at location of closed textbook store</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/02/26/city-will-adopt-garbage-rate-increase-to-counter-program-deficit/"
+                  class="article-a">
+                  City will adopt garbage rate increase to counter program deficit</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/03/11/nearly-pesticide-free-parks-in-2018-integrated-pest-management-policy-reduces-pesticide-use/"
+                  class="article-a">
+                  Nearly pesticide-free parks in 2018, Integrated Pest Management policy reduces pesticide use</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/04/14/prediction-for-davis-schools-enrollment-to-decline/"
+                  class="article-a">
+                  Prediction for Davis schools’ enrollment to decline</a><span class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/05/02/tenth-annual-loopalooza-welcomes-all/" class="article-a">
+                  Tenth annual Loopalooza welcomes all</a><span class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/04/23/amping-up-armadillo-music-to-sell-beer-install-turntables/"
+                  class="article-a">
+                  Amping up: Armadillo Music to sell beer, install turntables</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/05/21/annual-state-of-the-air-report-reflects-impact-of-northern-california-fires/"
+                  class="article-a">
+                  Annual “State of the Air” report reflects impact of Northern California fires</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/05/10/celebrate-davis-returns-with-traditions-new-historical-activity/"
+                  class="article-a">
+                  Celebrate Davis returns with traditions, new historical activity</a><span
+                  class="material-icons">moving</span>
+              </div>
+            </li>
+            <li>
+              <div class="row-span article-a">
+                <a href="https://theaggie.org/2019/06/10/ethnic-studies-push-for-a-seat-at-the-table/"
+                  class="article-a">
+                  Ethnic studies push for a seat at the table</a><span class="material-icons">moving</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
 
   </section>
 
