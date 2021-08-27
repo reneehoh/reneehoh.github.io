@@ -251,8 +251,7 @@ text-decoration: none;
 .article-a {
   margin-bottom: 15px;
   font-weight: 400;
-  letter-spacing: -1px;
-
+  letter-spacing: -.5px;
 }
 
 .see-more p {
@@ -262,3 +261,7 @@ text-decoration: none;
 /* a:hover {
   background-color: seagreen;
 } */
+
+.sun-article {
+  font-size: 90%;
+}
