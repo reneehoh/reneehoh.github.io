@@ -500,3 +500,8 @@ h2 {
   background-size: cover;
   /* display: inline-block; */
 }
+
+.proto {
+  display: inline;
+vertical-align: middle;
+}
