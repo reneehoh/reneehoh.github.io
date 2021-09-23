@@ -8,6 +8,11 @@ body {
   /* font-family: 'Space Mono', monospace */
   /* font-family: 'DM Mono', monospace; */
   font-family: 'Cormorant Garamond', serif;
+  font-family: 'Helvetica', monospace;
+  font-weight: 200;
+  max-width: 100%;
+  max-height: 100%;
+
 
   /* font-family: 'Cormorant Garamond', serif; */
   /* transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out; */
@@ -20,7 +25,6 @@ body {
 
 .section {
   min-height: 80vh;
-
 }
 
 a {
@@ -36,6 +40,7 @@ padding: 0;
 font-family: 'Helvetica', monospace;
 font-style: italic;
 z-index:1;
+padding:0px;
 /* margin-top: 10px; */
 
 }
@@ -43,8 +48,11 @@ z-index:1;
 .my-name {
   font-size: 150%;
   font-style: italic;
-  font-weight: bolder;
+  font-weight: 800;
   font-family: 'DM Mono', monospace;
+  padding:0px;
+  height:25px;
+
 }
 
 .nav-col {
@@ -77,8 +85,7 @@ z-index:1;
 .tidbit {
   width:250px;
   font-family: 'Cormorant Garamond', serif;
-
-
+  margin-top:15%;
 }
 
 .move {
@@ -105,6 +112,7 @@ footer {
   height: 2.5rem;  
   font-weight: 200;
   color:gray;
+  margin-top: 2%;
 }
 
 .caption {
@@ -168,7 +176,7 @@ footer {
 .tidbits {
   width: 80%;
   margin-left:0px;
-  margin-top:4%;
+  /* margin-top:4%; */
 }
 
 
@@ -194,21 +202,25 @@ footer {
   top: 30%;
   right: 5%;*/
   /* width: 80%;  */
-  /* font-family: 'Helvetica', monospace; */
-  font-family: 'Cormorant Garamond', serif;
+  font-family: 'Helvetica', monospace;
+  /* font-family: 'Cormorant Garamond', serif; */
   width: 80%;
   margin: auto;
   /* font-size: 90%; */
   font-weight:300;
+  font-size: 90%;
 }
 
 #about-me {
   margin-bottom: 15px;
+  margin-top: 15px;
   font-weight: 600;
-  font-family: 'Cormorant Garamond', serif;
-  /* font-family: 'DM Mono', monospace; */
+  /* font-family: 'Cormorant Garamond', serif; */
+  /* font-family: 'Helvetica', monospace; */
+    font-family: 'DM Mono', monospace;
+
 font-size: 110%;
-/* letter-spacing: -1px; */
+letter-spacing: -.5px;
 
 
 }
@@ -240,6 +252,12 @@ h2 {
 .writing {
 width: 60%;
 margin:auto;
+}
+
+.container-med {
+  width: 80%;
+margin:auto;
+
 }
 
 #writing {
@@ -274,8 +292,8 @@ margin:auto;
 
 #latest-work {
   /* margin-top: 90%;; */
-  position: absolute;
-  bottom: 18%;
+  /* position: absolute;
+  bottom: 18%; */
 }
 
 .empty-container {
@@ -360,4 +378,123 @@ h2 {
 }
 #right{
   float:right;
+}
+
+/* courtesy of https://blog.hubspot.com/website/css-fade-in */
+
+.fade-in-text1 {
+  animation: fadeIn linear 1s;
+  -webkit-animation: fadeIn linear 1s;
+  -moz-animation: fadeIn linear 1s;
+  -o-animation: fadeIn linear 1s;
+  -ms-animation: fadeIn linear 1s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.fade-in-text2 {
+  animation: fadeIn linear 3s;
+  -webkit-animation: fadeIn linear 3s;
+  -moz-animation: fadeIn linear 3s;
+  -o-animation: fadeIn linear 3s;
+  -ms-animation: fadeIn linear 3s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.fade-in-text3 {
+  animation: fadeIn linear 5s;
+  -webkit-animation: fadeIn linear 5s;
+  -moz-animation: fadeIn linear 5s;
+  -o-animation: fadeIn linear 5s;
+  -ms-animation: fadeIn linear 5s;
+}
+
+@keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-moz-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-webkit-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-o-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+@-ms-keyframes fadeIn {
+  0% {opacity:0;}
+  100% {opacity:1;}
+}
+
+.oval {
+  width: 10px;
+  height: 8px;
+  border-radius: 40px;
+  border: solid white;
+}
+
+.back-img {
+  width:100%;
+  height: 95vh;
+  background-image: url("../images/snee.jpeg");
+  background-position: center center;
+  /* background-repeat: no-repeat;
+  background-attachment: fixed; */
+  background-size: cover;
+  /* display: inline-block; */
 }
