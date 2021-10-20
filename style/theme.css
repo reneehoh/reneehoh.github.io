@@ -307,11 +307,11 @@ margin:auto;
   border: solid 1px white;
 }
 
-#latest-work {
-  /* margin-top: 90%;; */
-  /* position: absolute;
-  bottom: 18%; */
-}
+/* #latest-work {
+  margin-top: 90%;;
+  position: absolute;
+  bottom: 18%;
+} */
 
 .empty-container {
   height:50vh;
@@ -362,6 +362,12 @@ h3{
   font-family: 'Helvetica', monospace;
   font-weight: 200;
   font-size: 200%;
+}
+
+.index h3{
+  font-family: 'Helvetica', monospace;
+  font-weight: 200;
+  font-size: 150%;
 }
 
 h2 {
@@ -558,4 +564,8 @@ text-decoration: none;
   color: black;
   background-color: white;
   text-decoration: underline;
+}
+
+button {
+  background-color: white;
 }
