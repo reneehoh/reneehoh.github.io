@@ -23,6 +23,10 @@ body {
 
 }
 
+b {
+  font-weight: 500;
+}
+
 #writing, #info{
   min-height: 75vh;
 }
@@ -130,6 +134,7 @@ footer {
   font-family: 'DM Mono', monospace;
   font-weight: bold;
   padding-top:3%;
+  font-size: larger;
 }
 
 /* home formating */
@@ -254,7 +259,7 @@ h2 {
 }
 
 .writing {
-width: 60%;
+width: 50%;
 margin:auto;
 }
 
@@ -347,6 +352,10 @@ text-decoration: none;
 
 .see-more p {
   margin-right: 20px;
+}
+
+.half {
+  width:50%;
 }
 
 a:hover {
