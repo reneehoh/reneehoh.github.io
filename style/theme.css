@@ -569,3 +569,149 @@ text-decoration: none;
 button {
   background-color: white;
 }
+
+.new-intro {
+  margin-top: 50px;
+}
+
+.new-intro h1 {
+  font-family: 'DM Mono', monospace;
+  font-size: 100%;
+  font-style: italic; 
+  font-weight: 1000;
+  margin-top:30px;
+}
+
+.new-intro a {
+  font-family: 'Helvetica', monospace;
+  font-weight: 200;
+  /* text-decoration: underline dotted orangered; */
+  /* color:orangered; */
+}
+
+.new-intro a:hover {
+  /* text-decoration: underline gray dotted; */
+}
+
+.intro-text {
+  font-size: 140%;
+  /* font-weight:normal; */
+}
+
+.new-intro ul {
+  list-style: none; /* Remove default bullets */
+}
+
+
+.musings {
+  /* margin-top:150px; */
+  font-size: 120%;
+}
+
+.intro-sup {
+  font-style: italic;
+  font-size: 50%;
+  font-family: 'DM Mono', monospace;
+  /* color: orangered; */
+  text-transform:uppercase;
+  vertical-align: middle;
+  color:gray;
+}
+
+.nav-name {
+  font-size: 150%;
+  font-style: italic;
+  font-weight: 800;
+  font-family: 'DM Mono', monospace;
+  padding:0px;
+  height:25px;
+}
+
+
+.intro-text .intro-sup {
+  font-size: 40%;
+}
+
+.nav-name .intro-sup {
+  font-size: 40%;
+
+}
+
+.title-detail {
+  color: darkslategrey;
+  font-size: 80%;
+}
+
+.hover-title {
+  display: inline;
+  pointer-events: auto;
+  cursor: pointer;
+}
+
+.hover-image {
+  visibility: hidden;
+}
+
+body:not(.mobile) .hover-title:hover + .hover-image {
+  visibility: visible;
+  pointer-events: none;
+}
+
+.hover-image {
+  display: flex;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: -1;
+  pointer-events: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  opacity: 50%;
+
+/* Change width and height to scale images */
+  width: 90vw;
+  height: 90vh;
+}
+
+.hover-image img {
+  max-width: 100% !important;
+  max-height: 100% !important;
+  width: auto !important;
+  height: auto !important;
+  margin-bottom: 0;
+}
+
+.other-work {
+  font-size: 80%;
+}
+
+.scrolling-wrapper-flexbox {
+  display: flex;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  
+}
+.scrolling-wrapper-flexbox .card {
+  flex: 0 0 auto;
+  margin-right: 3px;
+}
+
+/* .intro-text-details {
+  font-size: 70%;
+} */
+
+.photo-gallery img {
+  width:200px;
+}
+
+.photo-gallery div {
+  margin-bottom: 10px;
+}
+
+
+
+
+
+
