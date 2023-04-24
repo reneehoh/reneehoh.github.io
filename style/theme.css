@@ -711,6 +711,51 @@ body:not(.mobile) .hover-title:hover + .hover-image {
 }
 
 
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (max-width: 768px) {
+  .body {
+    padding: 16px;
+  }
+
+  .row-span {
+    display:flex;
+    flex-direction: column;
+  }
+
+  .row-span ul {
+    padding-left:0px;
+  }
+
+  .hide-col {
+    display:none;
+  }
+
+  .photo-gallery {
+    width:200px;
+    margin: auto;
+    margin-top:20px;
+  }
+
+  .photo-gallery div {
+    margin-bottom: 30px;
+  }
+
+  .new-intro-sm {
+    width: 80%;
+    margin:auto;
+  }
+
+  .new-intro-sm ul {
+    padding-left:0px;
+  }
+
+  .new-intro-sm .container {
+    padding:0px;
+  }
+
+}
+
+
 
 
 

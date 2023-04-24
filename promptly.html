@@ -65,11 +65,11 @@
 
     <div class="container-fluid row-span">
       <div class="col">
-        <img src="images/promptly-mocks.png" class="img-fluid proto center-vert" alt="ads logo" />
+        <img src="images/promptly-mocks.png" class="img-fluid proto center-vert" alt="Mockup of the Promptly plugin" />
       </div>
       <div class=" col entry-details">
         <div class="header row-span">
-          <p>AUTOMATED EMAILS WITH PROMPTLY</p>
+          <p>AUTOMATED EMAILS WITH AI</p>
         </div>
         <div>
           <p><b>OVERVIEW</b></p>
@@ -82,7 +82,7 @@
 
         <div>
           <p><b>TEAM</b></p>
-          <p>Han Wang (Developer), Maggie Ying (Designer)</p>
+          <p>Han Wang (Eng), Maggie Ying (Design)</p>
         </div>
 
         <div>
@@ -98,33 +98,42 @@
         <span class="material-icons">fingerprint</span>
         <p>EMAILS TO START THE DAY</p>
       </div>
-      <p>Han, the developer on the team, sifted through many emails each morning for his startup, Peple. The emails
+      <p>Han, the developer on the team, sifted through countless emails each morning for his startup. The emails
         often asked the same things, how do I setup your product? How much is it? It was apparent that answering these
         emails became a pain point in his day.</p>
 
-      <p>So, we started thinking...<b>how might we streamline companies' communication with customers?</p></b>
+      <p>So we started thinking...<b>how might we help companies' communicate with their customers?</p></b>
 
 
       <div class="header row-span">
         <span class="material-icons">fingerprint</span>
         <p>CHATTING WITH COMPANIES</p>
       </div>
-      <p>We designed and build a minimum viable product (MVP) in just two weeks to quickly get user feedback on the
-        product direction of our tool. I spoke with small to medium sized companies with customer support teams.</p>
+      <p>We had a hunch that AI could lessen the workload of customer service teams, but we need to test our hypothesis in a lightweight way.</p>
+      <p>We built a MVP in two weeks to quickly get user feedback and to demo for small to medium sized companies with customer support teams.</p>
       <p>On a whim, I suggested that we train the AI model using information about Dunder Mifflin from “The Office”.
-        The demo was designed for
-        users to ask questions as if they were communicating with Dunder Mifflin’s customer service reps themselves.
-        With just a landing page and the interactive demo, we launched Dunder Email on Product Hunt.</p>
-      <b>Key Findings</b>
+        Users could ask questions as if they were communicating with Dunder Mifflin’s customer service reps themselves.</p>
+        <div class="row-span">
+        <div>
+          <a href="https://www.producthunt.com/posts/dunder-email?utm_source=badge-top-post-badge&utm_medium=badge&utm_souce=badge-dunder&#0045;email" target="_blank"><img src="https://api.producthunt.com/widgets/embed-image/v1/top-post-badge.svg?post_id=294439&theme=neutral&period=daily" alt="Dunder&#0032;Email - AI&#0045;powered&#0032;customer&#0032;support&#0032;for&#0032;Dunder&#0032;Mifflin | Product Hunt" style="width: 250px; height: 54px;" width="250" height="54" /></a>
+        </div>
+        <div style="margin-left: 5%">
+          <p>With just the interactive demo, we launched <b>Dunder Email on Product Hunt to the #5 Product of the Day.</b></p>
+        </div>
+      </div>    
+      <p><b>Key findings</b></p>
+      <p>From our experiment and chats with companies, we found that:</p>
       <ul>
         <li>Smaller companies lack <b>centralized documentation</b></li>
         <li>Many emails <b>contain requests</b>, not just inquiries</li>
         <li>Customer support has a strong emphasize on <b>fact checking and user feedback</b></li>
         <li>Tools should <b>not replace customer service teams</b>, but rather streamline their workflow</b></li>
-
       </ul>
     </div>
 
+    <p><b>The existing CUJ</b></p>
+    <img src="images/existing-email-cuj.png" class="img-fluid proto" alt="The existing CUJ for replying to a customer email." />
+    <p></p>
     <div class="header row-span">
       <span class="material-icons">fingerprint</span>
       <p>COMPANIES ARE STRETCHED TOO THIN</p>
@@ -134,7 +143,7 @@
       Small business
       owners and customer support representatives spend time answering questions that have already
       been answered on their wesbite, documentation, or in previous emails. This is process is tedious and takes up
-      valuable time that could be used for other CRM initiatives.</p>
+      valuable time.</p>
     <p></p>
     <p>Businesses want to provide their customers with consistent support but:</p>
     <ul>
@@ -148,13 +157,14 @@
       <p>ONE AND DONE</p>
     </div>
     <p>It seemed that users were most frustrated with completing the same task over and over again. During product
-      ideation, my goal was to <b>condense the user journey into just one step</b>. </p>
+      ideation, my north star was to <b>condense the user journey into just one step</b>. </p>
     <p>The result is for users to upload or edit this information one time in a <em>knowledge base</em> ––
       analogous to a small library with information specific to that company. The AI model would be trained on this
-      information to
-      intelligently
+      information to intelligently
       respond to any customer's inquiries, from the company's store hours to the pricing model.</p>
 
+      <p><b>The new CUJ</b></p>
+      <img src="images/promptly-email-cuj.png" class="img-fluid proto" alt="The existing CUJ for replying to a customer email." />
 
     <div class="header row-span">
       <p>INTEGRATING WITH GMAIL</p>
@@ -183,18 +193,18 @@
       <li>Chrome extension with separate dashboard</li>
       <li>Chrome extension with integrated dashboard</li>
     </ul>
-    <div class="row">
-      <div class="col">
+    <!-- <div class="row">
+      <div class="col"> -->
         <p>Ultimately, Gmail integration made the critical user journey the shortest and most straight
           forward.</p>
         <p>Users can directly manage their dashboard from the Gmail webpage, lowering the barrier to editing the
           knowledge
           base.</p>
-      </div>
-      <div class="col">
+      <!-- </div>
+      <div class="col"> -->
         <img src="images/gmail-integration.gif" class="img-fluid proto" alt="Promptly Gmail Integration" />
-      </div>
-    </div>
+      <!-- </div>
+    </div> -->
     </div>
 
 
@@ -212,18 +222,18 @@
     <b>Final Design</b>
     <p></p>
 
-    <div class="row">
-      <div class="col">
+    <!-- <div class="row">
+      <div class="col"> -->
         <img src="images/dm-dashboard.gif" class="img-fluid proto" alt="Promptly Dashboard" />
-      </div>
-      <div class="col">
+      <!-- </div>
+      <div class="col"> -->
         <p>The final design represents information as individual "entries" to help organize information in smaller,
           digestible parts. Users can upload a variety of different formats such as a file upload, text entry, or a data
           lake.</p>
         <p>Users can reference this page as a "source of truth" for all company information.</p>
-      </div>
-    </div>
-    </div>
+      <!-- </div>
+    </div> -->
+    <!-- </div> -->
 
     <div class="container">
       <div class="header row-span">
